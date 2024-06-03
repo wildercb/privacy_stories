@@ -1,0 +1,6 @@
+data shared with third parties The developer says this app doesn't share user data with other companies or organizations Learn more about how developers declare sharing Data collected Data this app may [#a collect] [#dt App info] and performance Crash logs [#dt Diagnostics] and Other [#dt app performance data] Data [#a collected] and for what purpose info Crash logs Analytics [#dt Diagnostics] [#p Analytics] Other app [#dt performance data] [#p Analytics] [#p Security] practices Data is encrypted in transit Your data is transferred over a secure connection Data can t be deleted The developer doesn t provide a way for you to request that your data be deleted info For more information about collected and shared data see the developer's privacy policy
+
+
+
+Super Soccer Star
+

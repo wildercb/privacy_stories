@@ -1,0 +1,68 @@
+3 Minimise
+Limit as much as possible the processing of personal data.
+The most obvious strategy to protect privacy is to minimise the collection of personal data. Nothing can go wrong with data you do not collect:
+they cannot be abused, they cannot be misused, or get leaked accidentally.
+Think carefully about the personal data you really need. Sometimes a radically different approach may lead to a design that requires significantly
+less data, or may require no personal data at all.
+3.1 Tactics
+Minimisation of personal data can be achieved by collecting data of less
+people, or collecting less data of people. Several different tactics are
+applicable.
+Select Select only relevant people and relevant attributes. Determine beforehand which people and which attributes are relevant, and process only that data. Process only incoming data that satisfies the
+selection criteria. Be conservative when establishing the selection
+criteria: only select what is strictly necessary. Use a white-list.
+Exclude Exclude people or attributes in advance. Determine beforehand
+which people or attributes are irrelevant. Do not process that data
+or immediately throw it away if you happen to receive it. Be liberal
+in grounds for exclusion: exclude as much as possible, unless you
+are certain, and can justify, that you need it. Use a black-list.
+Strip Remove (partial) data as soon as it is no longer necessary. Determine beforehand the time you need a particular data item, and ensure it gets automatically deleted as soon as this time expires. If
+the data item is part of a larger data record, update the field to a
+default value indicating it is unspecified. Changes in organisation,
+processes or services may render certain data items irrelevant before their expiry time. Prune them.
+Destroy Completely remove personal data as soon as they are no longer
+relevant. Ensure that the data cannot be recovered, even in unforeseen ways. Do not rely on logical removal strategies, that only block
+5
+the access to the data, but leave (traces of) the data still accessible
+to skilful attackers. Remove data from backups as well, and use
+secure ways to erase data from hard disks.
+Considering minimisation forces you to think carefully about the fundamental values of your organisation and the core business you are in. “A
+cobbler should stick to his last”: if you are not in the primary business of
+profiling your customers for say advertising purposes, you should stay
+away from that. Minimisation forces you to be specific about your purposes; don’t be tempted to phrase them broadly.
+In 2014 ING, a large Dutch bank, decided to offer third parties
+the opportunity to reach its bank account holders with targeted
+advertising, based on their transaction histories. This caused
+an uproar, and the bank quickly backtracked. ING customers
+considered this a huge breach of trust: financial transactions
+are quite sensitive, especially in the Netherlands where people do not easily share their financial situation or even their
+salaries.
+3.2 Examples
+Exclusion or selection of data is not only relevant when collecting information, or when personal data is obtained in another way, but also when
+using already collected data. Ensure that internal processes and applications only use the personal data that are truly relevant. Ensure that
+only relevant data is shared with third parties. And take care when the
+processing of personal data creates new personal data: select or exclude
+also in this case the new data that are truly (not) necessary.
+Data mining, deep learning and Big Data create new insights.
+Select only the insights that are relevant. Throw the others
+away, and do not keep them because “it doesn’t hurt to try”: it
+sometimes does hurt.
+In other words, also when using, sharing, analysing and enriching data
+one has to consider ways to minimise the final set of personal data retained.
+6
+The difference between stripping and destroying data is subtle: stripping
+happens in the application layer, while destroying focuses on the physical
+storage layer.
+There are tried-and-tested methods to truly erase and destroy data from
+hard drives (for example by writing random data several times to each
+of the sectors involved). An efficient method of destroying backups is
+by encrypting the data before backing it up. By associating certain keys
+with particular retention periods, all data for a particular data can be
+destroyed by simply destroying the associated key.
+A radically different system architecture may result in a much more privacy-friendly system. Consider for example a system for paying fees on
+toll roads. One approach would be to uniquely identify each passing
+car at each entrance and exit of the toll road. This would provide the
+operator with detailed information about everybody’s driving habits: a
+huge breach of privacy. Another approach would be to install a small box
+in each car that automatically deducts the required fee from an associated
+account.

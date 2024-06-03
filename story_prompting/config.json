@@ -1,0 +1,11 @@
+{
+    "max_section_size": 1000,
+    "iterations": 3,
+    "model_name": "gpt-4-turbo-2024-04-09",
+    "prompt_levels": {
+      "1": "simple_story",
+      "2": "behavior_analysis",
+      "3": "detailed_story"
+    }
+  }
+  

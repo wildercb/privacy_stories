@@ -1,0 +1,15 @@
+
+[#ns Chula
+Home
+Login
+Register
+About us
+Services
+Get Application
+Privacy Policy
+We are watchful about your privacy. Therefore, we use this policy document to explains what happens to your information when you use Chula, LLC. Once you use the website or an app, you agree to this Privacy Policy,] the {#s [#a collection] and [#a use] of your [#dt personal information.] We [#a collect] [#dt personal information] including [#dt name], [#dt physical address], [#dt phone number], [#dt card information], technical data and related information, and your [#dt current location] to [#p(functionality) better your use of the Service with more accuracy.] We [#a collect] this information via direct interactions as you use our website. Chula, LLC does not sell your personal information to the third party but we may use it for [#p(analytics) surveys], [#p(advertisement) contests, promotions] or other programs,manage and execute delivery services, provide customer support and [#p(contact) respond to your inquiries], [#p(security) protect against and prevent fraud, unauthorized transactions, claims and other liabilities]. /}  [#nsc If Chula, LLC decides to sell or merge with another organization we may transfer the information you provide to a third party. Our IT personal work hard to make sure your personal information is safe from unauthorized usage. You may have right to access to your Personal Information we have about you, make changes, and object to use of your information. If you have more questions about this Privacy Policy, you can always connect to us through our website.
+Terms and Conditions
+|
+Privacy Policy
+Chula. Copyright © 2022. All rights reserved.]
+

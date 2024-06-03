@@ -1,0 +1,29 @@
+
+Data safety Here's more information the developer has provided about the kinds of data this app may [#a collect] and [#a share], and security practices the app may follow. Data practices may vary based on your app version, use, region, and age.  Learn more Data shared Data that may be [#a shared] with other companies or organizations Personal info [#dt Name], [#dt Email address], and [#dt Phone number] Data [#a shared] and for what purpose info [#dt Name] [#p App functionality] [#dt Email address] [#p App functionality], [#p Analytics, Advertising or marketing] [#dt Phone number]  [#p App functionality] [#dt Financial info] [#dt User payment info and Purchase history]  Data [#a shared] and for what purpose info [#dt User payment info] [#p App functionality] [#dt Purchase history] [#p App functionality], [#p Analytics], [#p Developer communications], [#p Advertising or marketing], [#p Personalization] , [#p Account management] [#dt App activity] [#dt App interactions] expand_moreData shared and for what purposeinfo [#dt App interactions] [#dt App functionality] ,[#p  Analytics], [#p Personalization] , [#p Account management] Data collected Data this app may collect Personal info [#dt Name], [#dt User IDs], and [#dt Address] expand_more Data [#a collected] and for what purpose info [#dt Name] [#p App functionality], [#p Analytics] , [#p Developer communications], [#p Advertising or marketing], [#p Personalization], [#p Account management] [#dt User IDs] [#p App functionality], [#p Analytics] , [#p Account management] [#dt Address] · [#p Optiona lApp functionality] , [#p Advertising or marketing] [#p App activity] [#p App interactions ]expand_more Data [#a collected] and for what purpose info [#dt App interactions] [#p App functionality], [#p Analytics], [#p Fraud prevention], [#p security] , and [#p compliance], Personalization Security practices Data is encrypted in transit Your data is transferred over a secure connection You can request that data be deleted The developer provides a way for you to request that your data be deleted info For more information about collected and shared data, see the developer's privacy policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Craigslist classifieds: 
+

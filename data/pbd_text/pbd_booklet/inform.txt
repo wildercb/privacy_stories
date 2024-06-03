@@ -1,0 +1,59 @@
+7 Inform
+i
+Inform data subjects about the processing of their personal
+data in a timely and adequate manner.
+Transparency about which personal data is being processed, how they are
+processed and for which purpose, is an essential prerequisite for better
+privacy protection. It allows users to take informed decisions about using
+a system and agreeing to the processing of their personal data (see also
+the control strategy). Moreover it allows society at large to verify whether
+organisations are processing our personal data responsibly. (“Sunlight is
+said to be the best of disinfectants.”)
+7.1 Tactics
+Transparency can be achieved following these tactics.
+Supply Supply information about which personal data is processed, how
+they are processed, and why. Clearly specify how long personal
+data is retained, and how it is deleted. List all third parties with
+which you share this personal data, be clear about the conditions
+that cover each third party data exchange, and specify how these
+conditions are enforced. Put a link to your privacy policy on your
+homepage, and in your app. Clearly indicate how people can get in
+touch with questions about their privacy.
+Explain Explain which personal data you process, and why. Argue why
+this is necessary. Do this in a clear and easy to understand manner, even for a layperson. Target this information to different user
+groups: novices, experts, the authorities. Consider using a layered
+approach: first provide an overview, and provide links to more detailed information.
+Notify Notify users (in real time) the moment you process their personal
+data, share it with third parties, or as soon as you become aware of
+a data leak. Prepare clear procedures for this. Make notifications
+short but informative. Be sure not to notify too often. Allow users
+to control for which events they wish to receive a notification.
+14
+Informing users about the processing of their personal data (through a
+privacy statement) presupposes that there is a privacy policy in place
+(see the enforce strategy) on which the processing is based. Moreover,
+this information must be complete and up-to-date. This is harder than it
+first appears.
+Several years ago we, together with a few students, performed
+an experiment to test data subject access rights. The results
+were astounding. We received literally screenshots from databases. One student even got a phone call from the help desk of
+his mobile phone company. The poor help desk person asked
+him whether he really wanted to pursue his data subject access
+request, as it would take hours if not days to complete. This is
+what happens when you do not develop your system with such
+access requests in mind.
+7.2 Examples
+The set of icons created by the Creative Commons can be used to summarise the copyrights associated with a particular document. Similarly,
+privacy pictograms can communicate the essence of a privacy policy at
+a glance. For example these icons could indicate which type of personal
+data is processed, where they are processed, and whether they are shared
+with third parties (and if so, with whom).
+A personal privacy dashboard clearly shows to the users which data are
+collected, how they are processed, for which purpose, and with whom
+they have been shared. Companies like Google have implemented such
+privacy dashboards. Make sure the access to this dashboard is tightly
+secured!
+Apple’s iOS shows a notification icon in the status bar whenever an application accesses the location services. This is an example of an ‘ambient
+notification’: the user is informed in a subtle, non-invasive, way about the
+use of his personal data.
+1

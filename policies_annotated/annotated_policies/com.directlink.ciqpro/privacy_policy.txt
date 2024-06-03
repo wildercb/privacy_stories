@@ -1,0 +1,101 @@
+[#ns OMNI IQ by Canby Telephone Association dba DirectLink Privacy Policy | DirectLink
+OMNI IQ by Canby Telephone Association dba DirectLink Privacy Policy
+OMNI IQ by Canby Telephone Association dba
+DirectLink
+Privacy Policy Test
+Privacy Policy
+Our Privacy Policy was last updated on September 15, 2022.
+This Privacy Policy describes DirectLink policies and procedures on the collection, use, and disclosure of Your information when You use OMNI IQ and tells You about Your privacy rights and how the law protects You.]
+{#s DirectLink [#a uses] Your [#dt Personal Data] to [#p(functionality) provide and improve OMNI IQ]. By using OMNI IQ, You agree to the [#a  collection] and [#a use] of information /} [#ns in accordance with this Privacy Policy. If you do not agree with DirectLink’s policies and practices, you should not install, use, or access the App.
+Definitions
+For the purposes of this Privacy Policy the following definitions shall have the same meaning regardless of whether they appear in singular or in plural:
+“Agreement”
+refers to the Company’s Terms and Conditions of Service document.
+"Application"
+or
+“App”
+means the software program provided by the Company downloaded by You on any electronic device, named OMNI IQ.
+"Company"
+(referred to as either "the Company", "We", "Us", "Our" or DirectLink in this Agreement) refers to Canby Telephone Association dba DirectLink.]
+{s [#dt "Cookies"]
+are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your [#dt(app interactions) browsing history on that website] among its many uses. /}
+ "Device"
+means any device that can access the Service such as a computer, a cell phone or a digital tablet.
+{#s [#dt "Personal Data"]
+is any information relating to an identified or identifiable natural person with reference to an identifier, including but not limited to, [#dt name], an [#dt email address], an online identifier such as login credentials, or any other identifier by which that natural person may be [#p contacted] online or offline. /}
+[#ns "You" / “Your”
+refers to the individual accessing or using OMNI IQ, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+What is covered by this Privacy Policy
+This Privacy Policy (the
+“Privacy Policy” ) covers the Company’s privacy and security policies for Personal Data collected by the Company and app developer Calix, Inc. in connection with the Calix CommandIQ mobile application (the
+“App” ), marketed by the Company as OMNI IQ.
+This Privacy Policy sets out:]
+{#s The [#dt Personal Data] that is [#a collected] when you download, install, register for and/or use the App; and
+Our practices associated with [#a collecting], [#a using], [#a retaining], [#a disclosing] and protecting the information associated with your use of the App. /}
+[#ns What is not covered by this Privacy Policy
+This Privacy Policy DOES NOT apply to information:
+We collect on our website; or
+We may collect unrelated to our provision of the App.
+Information collected on our website at
+www.DirectLink.coop
+is subject to our privacy policy in the legal section of the website (accessible at
+https://www.directlink.coop/docs/legal/DirectLink-Privacy-Policy-04-06-2021.pdf ).
+Personal Data does not include information that has been anonymized or aggregated so that it can no longer be used to identify a specific natural person, whether in combination with other information or otherwise.
+Children Under the Age of 16
+The App is not intended for children under 16 years of age, and we do not knowingly collect Personal Data of children under 16. If we learn that Personal Data from a child under 16 has been obtained or received without verification of parental consent, we will delete that information. If you believe the Company might have any information from or about a child under 16, please contact us at
+support@myDirectLink.net .]
+How DirectLink [#a Collects] Your Information
+{#s We [#a collect] and [#a processes] information provided directly by you when you install the App and register for an account to use the App. Specifically, this information includes, but is not limited to:
+Your [#dt first and last name], [#dt email address], [#dt location], and [#dt phone number.]
+[#dt Browser information] and [#dt session cookies] related to your access and use of the App.
+Data insights The Company attains based on correlation and [#p analytics of your information] collected in providing the App, which may be used in aggregated and disaggregated formats or to obtain [#p trend analytics], to [#p(functionality) provide the App]; and Use of the above-described collected information in aggregated and disaggregated formats to [#p(functionality) enhance our current App or to provide App features.] /}
+How DirectLink Uses the Information
+{#s We [#a use] the information collected as described in this Privacy Policy, including [#dt Personal Data], to:
+[#p(functionality) Provide and maintain our Service]
+and App as described in the Agreement.
+[#p(customization:account management) Manage your Account.]
+[#p(functionality) Implement, improve and/or enhance the App,] including to make future releases available to you.
+To [#p contact you]
+via email, telephone calls, SMS,] or other equivalent form(s) of communication regarding updates or [#p(advertisement) informative communications related to the functionalities, products or contracted services], including security updates, when necessary or reasonable for their implementation.
+[#p(verified feedback) To manage your requests.]
+To attend to and manage your requests to us.
+[#p(functionality) To perform] /}
+[#ns and carry out Company obligations as described or authorized in the Agreement and this Privacy Policy.
+Enforce
+Company rights arising from the Agreement between you and us; and
+Fulfill
+any other purpose authorized by you and reasonably required for the App.
+For other purposes:]
+{#s We may [#a use] Your [#dt Personal Data] for other purposes, such as [#p(analytics) data analysis], [#p(user habits:analytics) identifying usage trends], [#p(advertisement)+(analytics) determining the effectiveness of our promotional campaigns] and to [#p(analytics) evaluate and improve our Service, products, services, marketing, and your experience.] /}
+{#s [#a Retention] of Your [#dt Personal Data]
+We will [#a retain] Your [#dt Personal Data] only for as long as is necessary for the purposes set out in this Privacy Policy. We will [#a retain] and [#a use] Your Personal Data to the extent necessary to [#p comply with our legal obligations] /}(for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal rights, agreements, and policies.
+{#s We will also [#a retain] [#dt(app interactions) usage data] for [#p(analytics) internal analysis purposes]. [#dt Usage Data] is generally [#a retained] for a shorter period of time, except when this data is used to strengthen the [#p security] or to improve the [#p functionality] of Our Service, or We are [#p(requirements:law compliance) legally obligated] /} to retain this data for longer time periods.
+[#a Disclosure] of Information
+[#ns The Company does not sell or otherwise distribute or disclose your information to third parties other than as described or authorized in the Agreement, including this Privacy Policy.
+The Company and the] App developer Calix, Inc.{#s  [#a discloses] the information to its subsidiaries, affiliates, and certain third-party vendors and contractors that provide development, integration, web hosting, and consulting services to The Company for the purpose of [#p providing you with the App], to [#p maintain, support, develop, improve and/or enhance] the App and to fulfill The Company obligations associated with the App.
+The Company may be required to [#a disclose] information under certain circumstances:
+[#p(Requirements:legal compliance) To comply with any court order, law, or legal process, including to respond to any government or regulatory request;]
+[#p(Requirements:Policy compliance) To enforce The Company’s rights arising from the Agreement entered into between you and The Company;]
+If The Company believes disclosure is necessary or appropriate to [#p(security) protect the rights, property, or safety of The Company, its customers or other third parties]; /} [#ns or
+To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of The Company’s assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which you and/or you subscriber held by The Company are among the assets transferred.
+Data Security
+All information you provide to us is stored on our secure servers behind firewalls. The Company utilizes mechanisms such as intrusion detection systems, intrusion prevention systems, firewalls, and encryption to secure information from accidental loss and from unauthorized access, use, alteration, and disclosure.
+The Company deploys Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) to alert and proactively contain potential threats. Enhanced security visibility and coverage is enabled through added layers of firewall and IDS beyond the network perimeter. Management connections to servers are always authenticated and encrypted via Secure Shell (SSH) when administration access is required for troubleshooting, patch management, and upgrades.
+The Company runs automated vulnerability scanning on all perimeter systems to identify potential security risks. Scanning applications are regularly updated to remain current and up to date on important security vulnerabilities. Patches are applied to all relevant systems, unless a compensating control is implemented.
+The Company uses a variety of industry-standard security technologies and best practices to help protect information from unauthorized access, use, or disclosure. All data stored on the Company systems is encrypted following industry standards using the strongest keys and ciphers. All communications with the App are protected with industry standard security protocols.
+You control access to your account and, as set forth in the Agreement, you are obligated to keep your login credentials and passwords secure and protected and maintained as confidential. Although The Company implements measures that are reasonably designed to protect you, information may nevertheless be transmitted outside of The Company’s systems. Any such transmission of information is at your own risk, and the Company is not responsible for any circumvention of any privacy settings or security measures provided.
+Changes to this Privacy Policy
+The Company may update this Privacy Policy from time to time. If the Company makes material changes to how the Company treats Personal under this Privacy Policy the Company will notify you by email or other communication.
+The date the Privacy Policy was last revised is identified at the end of this Privacy Policy. You are responsible for ensuring the Company has an up-to-date active and deliverable email address for you and for periodically visiting this Privacy Policy to check for any changes.
+Contact Information
+To ask questions or comment about this Privacy Policy and the Company’s privacy practices for the Cloud Services, contact The Company via e-mail at
+HereForYou@DirectLink.coop .
+Last updated: September 2022
+dismiss
+Share Tweet
+How easy was it for you to find the information you were looking for? Very difficult 0 1 2 3 4 5 6 7 8 9 10 Very easy Very difficult
+Very easy powered by
+InMoment • opt out •
+here]
+
+

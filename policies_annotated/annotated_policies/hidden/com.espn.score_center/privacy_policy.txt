@@ -1,0 +1,66 @@
+
+[#ns Privacy Policy
+The Walt Disney Company has a rich tradition of bringing great stories, characters, and experiences to our guests around the world, and our sites and applications are created to entertain and connect guests with the best that we have to offer on the platforms and devices our guests prefer.]  When our guests use our sites and applications, [#a(collect) we may obtain data] from and  about guests and [#dt(device information) their devices]. We are dedicated to treating your [#dt personal information] with care and respect. [#ns Our privacy policy is designed to provide transparency into our privacy practices and principles in a format that our guests can navigate, read and understand.  Our policy explains:
+The scope of this policy
+Who we are, including which member of The Walt Disney Family of Companies is responsible for your personal information collected from our sites and applications
+The types of information we collect
+How we collect your information
+How we use your information, including sharing it with other members of The Walt Disney Family of Companies
+The limited circumstances under which we share your personal information with other entities
+Your controls and choices
+Our children’s privacy policy and practices
+Our data security, integrity, and retention policies and practices
+Our global data transfer, storage, and processing practices
+How we manage updates to this policy
+How to contact us with comments and questions
+US residents’ rights
+UK, EU, & EMEA residents’ rights
+Brazilian residents’ rights
+Definitions of terms in the policy
+Learn More
+Privacy Policy]
+{#s ONLINE [#dt TRACKING TECHNOLOGIES] AND ADVERTISING
+We and certain service providers operating on our behalf [#a collect] information about your activity, or [#dt(usage data) activity on devices associated with you], on our sites and applications using [#dt tracking technologies] such as [#dt cookies], [#dt Flash cookies], [#dt pixels], [#dt tags], software development kits, application program interfaces, and [#dt Web beacons].
+Learn More
+[#dt ONLINE TRACKING TECHNOLOGIES] AND ADVERTISING /}
+[#ns Children’s Privacy Policy
+The Walt Disney Family of Companies (“TWDC”) is committed to protecting the privacy of children who use our sites and applications.
+Learn More
+Children’s Privacy Policy
+Contact Us
+Learn More
+Contact Us
+© Disney.
+All rights reserved
+Terms of Use Privacy Policy Your US State Privacy Rights Do Not Sell or Share My Personal Information Children's Online Privacy Policy Interest-Based Ads
+Print Page
+Back to Top
+back-to-top
+Notice of Right to Opt Out of Sale/Sharing Some states provide residents (or, in some cases, their authorized agents) with the right to opt out of “targeted advertising,” “selling,” or “sharing” of personal information. Please visit Your US State Privacy Rights , including the Your California Privacy Rights
+section, for more information about your rights and our privacy practices.
+Manage Consent Preferences Technically Necessary Always Active] These [#dt cookies] are [#p(functionality) necessary for our services to function] and cannot be switched off in our systems. [#ns They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in, accessing, searching, or discovering content, or filling in forms. You can set your browser to block, or alert you about, these cookies, but some parts of the site will not then work.]  Selling, {#s [#a Sharing], [#p Targeted Advertising]
+Selling, [#a Sharing], [#p Targeted Advertising]
+We may [#a use] [#dt personal information] to support [#p “targeted advertising,”] “selling,” or [#p “sharing,”] as defined by applicable privacy laws, which may result in [#a(share) third parties receiving] your [#dt personal information]. /}
+[#nsc You or your legally authorized agent can move the toggle above to the left to opt out of these activities on this digital property consistent with applicable law.]
+[#ns Please note that, because these activities are based on online cookies, your opt-out choice is specific to this property. If you access other digital properties of the Walt Disney Family of Companies, you will need to make your election for each. Also, if you clear your cookies on this browser or use another browser or device, you may need to opt out again on this property.
+In addition to the above toggle, you may choose to provide the information requested in this
+opt-out form , which may enable us to take action on your opt-out election more broadly than just on this digital property.
+You may also choose to enable online, where available, a universal tool that automatically communicates your opt-out preferences, such as the Global Privacy Control (“GPC”). We will process the GPC signal as a request to opt out.
+If you opt out, you may continue to see advertising, including ads that may be based on personal information processed before you opted out.
+You also may have rights to opt out from certain third parties selling and sharing your personal information. You will need to separately exercise your opt-out rights with regard to each, which you may do through this
+IAB opt-out list . You may also wish to use other available online tools to limit various types of interest-based advertising or tracking. To learn more, visit
+"Do Not Sell or Share My Personal Information" and "Targeted Advertising" Opt-Out Rights . Back Button Cookie List
+Search Icon Filter Icon Clear
+checkbox label
+label Apply
+Cancel Consent
+Leg.Interest
+checkbox label
+label
+checkbox label
+label
+checkbox label
+label
+Confirm My Choices]
+
+

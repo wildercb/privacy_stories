@@ -1,0 +1,42 @@
+
+
+{#s Any [#dt personal information] Image-Line [#a collects] is explicitly provided by you when you [#p(account management) create an Account]. /} From the point of Account creation, the following policies and standards apply: Please see the  IMAGE LINE SOFTWARE PRIVACY STATEMENT
+
+{#s [#dt Personal Data]: all data concerning an identified or identifiable natural person, such as but not limited to information that informs Image Line specifically concerning the identity of the Visitor, such as the Visitor's [#dt name], [#dt telephone number], [#dt email address], [#dt home address] or [#dt payment and financial information], regardless of how it is communicated, for instance by word, text, sound or image.
+ 
+2. Protection of Personal Data
+Image Line is responsible for the [#a processing] of [#dt Personal Data] that it collects and processes as part of its activities. /}
+
+{#s [#p(functionality: account management) When you create an account] you are able to subscribe to product updates and sales info.  If so your [#dt email address] is [#a(collect) added to our internal mailing list]. /} 
+{#s A Visitor who [#p(order fulfillment) orders one of Image Line’s products and/or services] through the web shop on the Website [#a(collect) must provide Image Line] with [#dt Personal Data], such as his [#dt name], [#dt home or business address], [#dt email address] and [#dt billing information], [#p(order fulfillment) to complete the Visitor’s order.] /} Image Line has the right to use such information for executing the order and for purposes of direct marketing. Image Line may share such information for purposes of permitting other companies to market to the Visitor.
+{#s [#dt Personal Data] [#a collected] during the installation, use or distribution of Image Line’s software will be used for the sole purpose of [#p(functionality) proper functioning of the software.]
+[#dt Personal Data] that are [#a collected] through the web shop ordering facilities are used to [#p(order fulfillment) fulfil Image Line’s sales contract obligations]. Therefore it is possible that [#a(share) Image Line has to give] certain [#dt Personal Data] to its distributor or other subcontractors [#p(order fulfillment) for delivery purposes.] /}
+
+{#s [#dt Cookies] also enable Image Line’s systems to recognize the Visitor’s browser and to [#p(account management) provide features such as "My Account"] section and help Image Line to [#a collect] information about the products a logged in Visitor already [#dt(purchase history) has purchased or obtained.]  /} 
+{#s The information [#a collected] through cookies includes [#dt IP addresses], search terms, domain names and browser types. Image Line uses this kind of information to [#p(analytics:user habits) track usage and other patterns on its Website.] /} 
+
+When you visit our websites or use our software, we [#a(collect) automatically log] some basic information such as, how you got to the site, [#dt(app interactions) where you navigated within it], and what features and settings you use. We use this information to [#p(functionality) improve our websites and services] and to [#p(analytics) drive new product development.]
+
+ 
+8. What we do with your information?
+{#s We [#a use] your information to provide the services you've requested, [#p(account management) create and maintain your accounts], and [#p(security:user security) keep an eye out for unauthorized activity on your accounts]. We also use it to [#p communicate with you about the products you're currently using], your customer support requests, [#p(advertisement) new products you may like], [#p(verified feedback) chances for you to give us feedback], and policy updates. We analyze the information we collect to understand user needs and to improve our websites and services. /} 
+
+{#s [#dt LOCATION ACCESS]
+On the Android platform this is required for
+[#p(access) Bluetooth Low Energy (BLE)] /} 
+to work properly across all android devices and versions. Location is required when an App needs BLE as it's possible to guess your location from nearby BLE devices. We use BLE to provide support for Bluetooth MIDI keyboards and Headphones. FL Studio Mobile does not send your location to our servers or other servers. We do not try to guess your location from nearby BLE devices. We are here to help you make music, not track your location for any purpose whatsoever.
+Products
+FL Studio
+
+
+
+
+
+
+
+
+
+
+
+PSPlay: Remote Play
+

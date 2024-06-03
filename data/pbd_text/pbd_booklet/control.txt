@@ -1,0 +1,50 @@
+8 Control
+Provide data subjects adequate control over the processing
+of their personal data.
+Control is a fundamental principle to protect the privacy of users. The
+main goal of privacy is not to totally prevent the processing and sharing
+of personal data. Not at all! But users want to have control and have a
+say in how their personal data is processed and shared.
+8.1 Tactics
+Users get control over the processing of their personal data through one
+of the following tactics.
+Consent Ask users explicit consent to the processing of their personal
+data. Inform them beforehand exactly about which personal data
+will be processed, how they will be processed and for which purpose (‘informed consent’, see also the inform strategy). It should
+be possible to withdraw consent.
+Choose Offer users a real choice: basic functionality should be accessible
+for people who do not consent to the processing of their personal
+data. Offer a (paid) alternative.
+Update Offer users the means to review and update the personal data
+collected about them. A logical approach is to combine this with
+the approach that allows users to view the personal data collected
+(e.g. through a dashboard).
+Retract Offer users a means to retract (or to ask for the deletion of) their
+personal information. Again, this can be part of a privacydashboard.
+Consent is not always required when processing personal data, for example when you have a legitimate interest to process it. Always consult a
+lawyer to make sure.
+It is not always possible or even required to allow users to correct their
+data or to delete their data when they ask you to. Sometimes personal
+data are simply required to be retained. In medical records it is undesir16
+able to allow patients to edit entries with medical significance.
+8.2 Examples
+In many cases processing personal data is simply allowed, for example
+because they are strictly necessary to execute a contract (e.g. the postal
+address is required when ordering something on-line) or because there
+is a legal requirement to do so (e.g. banks verifying your identity). In
+other cases consent is required. Inform users clearly about the purposes.
+And offer them a real choice (so that they do get access even when they
+do not agree, perhaps to a limited part of the service). Use opt-in (no
+processing without prior consent) instead of opt-out (processing takes
+places, unless consent is withdrawn at a later stage): the default choice
+does not constitute consent. So don’t use pre-checked checkboxes to
+subscribe people to newsletters, for example…
+Websites have to ask permissions to place cookies. Many of the ‘accept
+cookies’ notifications do not comply: they do not offer a real choice as the
+website cannot be visited unless the cookie is accepted. A proper cookie
+statement offers a real choice to accept cookies, and offers the option to
+choose which cookies to accept or not (e.g. those needed for anonymous
+website statistics, or those used to connect with social networks).
+A radically different approach shifts the control of the personal data completely to the users themselves. Instead of organisations storing the personal data for all their customers, they ask their customers to each store
+that data themselves. The organisations later access that information
+through a standard interface, under the control of the user. This is sometimes called ‘customer managed relations’ as opposed to ‘customer relations management’.

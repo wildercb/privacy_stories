@@ -1,0 +1,28 @@
+[#ns All Kar Notes Privacy Policy
+All Kar Notes Privacy Policy
+Thank you for using All Kar Notes.
+This privacy policy explains how we collect, use, and disclose information when you use our notes app. By using All Kar Notes, you agree to the terms described in this policy.]
+1. Information [#a Collection] and [#a Use]
+1.1 Personal Information
+We do not collect any personally identifiable information (PII) from you when you use All Kar Notes. The app does not require any login or registration, ensuring your privacy is preserved.
+{#s 1.2 [#dt Non-Personal Information]
+We may collect [#dt non-personal information] about your usage of the app, such as [#dt device information], app crashes, and [#dt(app interactions:user habits) usage statistics]. This information is [#a used] to [#p(functionality) improve the app's performance], /} fix bugs, and enhance user experience.
+2. AdMob
+2.1 Advertisements
+{#S All Kar Notes [#a(use third party) uses AdMob], a mobile advertising platform provided by Google, to display advertisements. AdMob may [#a collect] and use [#dt non-personal information] about your device, such as [#dt device identifiers], [#dt IP address], and [#dt(app interactions:user habits) app usage data], to [#p(advertisement:personalized) provide personalized ads]. /} [#ns Please refer to Google's Privacy Policy for more information on how Google handles user data.
+2.2 Opt-Out
+You can opt-out of personalized advertising by adjusting your device settings or by using third-party tools, such as the Google Ad Settings or the Network Advertising Initiative opt-out page.
+3. Data Security
+We take reasonable measures to protect the information collected through All Kar Notes from unauthorized access, loss, or misuse. However, please note that no data transmission over the internet or storage system can be guaranteed to be 100% secure.
+4. Third-Party Services
+All Kar Notes may contain links to third-party websites or services. We are not responsible for the privacy practices or content of these third parties. We encourage you to review the privacy policies of those websites or services before providing any personal information.
+5. Changes to this Privacy Policy
+We reserve the right to modify this privacy policy at any time. Any changes will be effective immediately upon posting the updated policy within All Kar Notes. Your continued use of the app after any modifications will constitute your consent to the updated policy.
+6. Contact Us
+If you have any questions or concerns about this privacy policy or the practices of All Kar Notes, please contact us at
+support@mmdarkworld.site .
+Please note that this privacy policy is solely for All Kar Notes and does not apply to any other apps, websites, or services that may be linked or mentioned within All Kar Notes.
+By using All Kar Notes, you acknowledge that you have read and understood this privacy policy and agree to the collection, use, and disclosure of your information as described herein.
+All Kar Notes is developed with user privacy and data protection in mind. We strive to provide a secure and enjoyable experience for our users while complying with applicable privacy laws and Google Play policies.]
+
+

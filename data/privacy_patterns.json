@@ -1,0 +1,506 @@
+{
+    "/patterns/Protection-against-tracking": {
+        "summary": "This pattern avoids the tracking of visitors of websites via cookies.\nIt does this by deleting them at regular intervals or by disabling\ncookies\u00a0completely.",
+        "context": "This pattern is applicable when personal identifiable information is\ntracked through software tools, protocols or mechanisms such as\ncookies and the\u00a0like.",
+        "problem": "With every single interaction in the web you leave footmarks and clues\nabout yourself. Cookies for example enable webservers to gather\ninformation about web users which therefore affects their privacy and\nanonymity. Web service providers trace user behavior, which can lead\nto user profiling. Also providers can sell the gathered data about\nusers visiting their pages to other\u00a0companies.",
+        "solution": "Restricting usage of cookies on the client side by deleting cookies on\na regular basis e.g. at every start-up of the operating system or\nenabling them case-by-case by deciding if the visited website is\ntrustworthy or not and by accepting a cookie only for the current\nsession. At the highest level of privacy protection cookies are\ndisabled, but as a consequence web services are restricted. Another\nsolution could be that cookies are exchanged between clients, so that\nsophisticated user profiles\u00a0emerge.",
+        "examples": "Alice wants to buy shoes and she wants to shop online. She heads to an\nonline shop and searches for shoes but can\u2019t decide which ones she\nwants, so she buys neither of them. The next day she finds a couple of\nemails in her inbox, giving her suggestions for other shoes and\nalerting her that the viewed shoes are now on\u00a0sale."
+    },
+    "/patterns/Location-granularity": {
+        "summary": "Support minimization of data collection and distribution. Important when a service is collecting location data from or about a user, or transmitting location data about a user to a\u00a0third-party.",
+        "context": "When a service is collecting location data from or about a user, or transmitting location data about a user to a\u00a0third-party.",
+        "problem": "Many location-based services collect current or ongoing location information from a user in order to provide some contextual service (nearest coffee shop; local weather; etc.). Collecting more information than is necessary can harm the user's privacy and increase the risk for the service (in the case of a security breach, for example), but location data may still need to be collected to provide the service. Similarly, users may want the advantages of sharing their location from your service to friends or to some other service, but sharing very precise information provides a much greater risk to users (of re-identification, stalking, physical intrusion,\u00a0etc.).",
+        "solution": "Since much geographic data inherently has different levels of precision (seegeographic ontologies, for example) -- like street, city, county, state, country -- there may be natural divisions in the precision of location data. By collecting or distributing only the necessary level of granularity, a service may be able to maintain the same functionality without requesting or distributing potentially sensitive data. A local weather site can access only the user's zip code to provide relevant weather without ever accessing precise (and therefore sensitive) location\u00a0information.",
+        "examples": ""
+    },
+    "/patterns/Minimal-Information-Asymmetry": {
+        "summary": "",
+        "context": "",
+        "problem": "Controllers have far more information than the users who utilize their services, which makes the users vulnerable to\u00a0exploitation.",
+        "solution": "Require minimal information from the user, so that only as much personal data as is required, explained, and consented to, is processed. Further reduce the imbalance of policy knowledge by writing clear and concise policies rather than, or in addition to, complex and verbose\u00a0ones.",
+        "examples": "Many online organizations provide signals to their customers. Often they are publicly and freely available, but can also be purchased by third parties. The online auction site, eBay, for example, uses a reputation system to assist other buyers in feeling more comfortable purchasing from an unknown seller. Many other ecommerce sites (such as Amazon) rely heavily on the reputation and referral systems in order to help customers make a more informed\u00a0decision."
+    },
+    "/patterns/Informed-Secure-Passwords": {
+        "summary": "",
+        "context": "",
+        "problem": "Users must regularly maintain many strong passwords, remember them, and protect them, but are not well equipped to do so. So instead many choose weak ones and reuse\u00a0them.",
+        "solution": "Provide users with assistance in understanding and maintaining strong passwords which are easier to\u00a0remember.",
+        "examples": "Strongpasswordgenerator.com both provides explanation on state of the art approaches to secure passwords in a layperson friendly manner and helps generate\u00a0them."
+    },
+    "/patterns/Awareness-Feed": {
+        "summary": "An Awareness Feed warns the user about the potential consequences of sharing their personal data. It does so before that data is collected or used, and continues to do so whenever a change in context is detected. This change may include newly provided information by the user, and changes in the environment in which the controller (i.e. provider) operates or processes personal\u00a0data.",
+        "context": "",
+        "problem": "",
+        "solution": "Warn users about potential consequences before collecting or otherwise processing personal data, early enough to be appreciated and late enough to be\u00a0relevant.",
+        "examples": "Full adoption of this pattern is not yet commonplace, yet there exist examples of feedback loops to users about activities corresponding to them. This includes notifications such as 'user X wants to access Y', or retrospectively, 'user X accessed Y'. There also exist services which require opt-in, accompanied by explanations of their effects. Conversely telemetry is often opt-out, but occasionally explains what information is at\u00a0stake."
+    },
+    "/patterns/Encryption-user-managed-keys": {
+        "summary": "Use encryption in such a way that the service provider cannot decrypt the user's information because the user manages the\u00a0keys.",
+        "context": "User wants to store or transfer their personal data through an online service and they want to protect their privacy, and specifically the confidentiality of their personal information. Risks of unauthorized access may include the online service provider itself, or third parties such as its partners for example for backup, or government surveillance depending on the geographies the data is stored in or transferred\u00a0through.",
+        "problem": "How can a user store or transfer their personal information through an online service while ensuring their privacy and specifically preventing unauthorized access to their personal\u00a0information?",
+        "solution": "Encryption of the personal information of the user prior to storing it with, or transferring it through an online service. In this solution the user shall generate a strong encryption key and manage it themselves, specifically keeping it private and unknown to the untrusted online service or 3rd\u00a0parties.",
+        "examples": "Somehave used the term \"zero-knowledge\" to describe this pattern; however, \"zero-knowledge proof\" is a cryptographic term with adistinct meaning."
+    },
+    "/patterns/Federated-privacy-impact-assessment": {
+        "summary": "The impact of personal information in a federation is more than the\nimpact in the\u00a0federated",
+        "context": "Identity Management scenarios (that is, when the roles of the Identity\nProvider and the Service Provider are\u00a0separated).",
+        "problem": "Identity Management solutions were introduced to decouple the\nfunctions related to authentication, authorization, and management of\nuser attributes, on the one hand, and service provision on the other\nhand. Federated Identity Management allows storing a data subject's\nidentity across different systems. All together, these form a\nFederation that involves complex data\u00a0flows.",
+        "solution": "A Privacy Impact Assessment is conducted by all the members of the\nfederation, both individually and in conjunction, so as to define\nshared privacy policies, prove they are met, and demonstrate the\nsuitability of the architecture, in the benefit of all the\u00a0members.",
+        "examples": "An Identity Provider issues pseudonyms to authenticate users at\nthird-party Service Providers, which can in turn check the\nauthenticity of these pseudonyms at the Identity Provider, without\ngetting to know the real user identity. However, the Identity Provider\nknows all the services requested by the users, which discloses\npersonal information to the Identity Provider and allows it to profile\nthe\u00a0users."
+    },
+    "/patterns/Use-of-dummies": {
+        "summary": "This pattern hides the actions taken by a user by adding fake actions\nthat are indistinguishable from\u00a0real.",
+        "context": "This pattern is applicable when it is not possible to avoid executing,\ndelaying or obfuscating the content of an\u00a0action.",
+        "problem": "When users interact with ICT systems their actions reveal a lot of\ninformation about themselves. An option would be for users to not\nperform such actions to protect their privacy. However, this is not\npossible since users cannot completely avoid executing these actions\nbecause they need to perform them to achieve a goal (e.g., search for\na word on the Internet, send an email, search for a\u00a0location).",
+        "solution": "Since the action must be accurately performed, an option to provide\nprivacy is to simultaneously perform other actions in such a way that\nthe adversary cannot distinguish real and fake (often called dummy)\u00a0actions.",
+        "examples": "Alice wants to search for an abortion clinic on Google, but she does\nnot want to reveal her intentions of abort to an adversary that may be\neavesdropping this search (e.g., ISP provider, system administrator of\nher workplace,\u00a0etc)."
+    },
+    "/patterns/Whos-Listening": {
+        "summary": "",
+        "context": "",
+        "problem": "Users do not know if the content they are accessing or have disclosed has been accessed or modified by others, nor if it is someone they\u00a0know.",
+        "solution": "Provided that users know their access is not private, inform them of other users, even unauthenticated, which are also accessing the content in\u00a0question.",
+        "examples": "The [MIME] protocol provides an option so that receivers of the [message] are asked to confirm the message. It is defined in [RFC 8098 (Hansen&Melnikov\u00a02017)]"
+    },
+    "/patterns/identity-federation-do-not-track-pattern": {
+        "summary": "",
+        "context": "",
+        "problem": "",
+        "solution": "",
+        "examples": ""
+    },
+    "/patterns/Privacy-Policy-Display": {
+        "summary": "",
+        "context": "",
+        "problem": "Whenever the user's information is requested, it must be clear to them exactly what information is needed, who requests it, and what will be done with\u00a0it.",
+        "solution": "As requests for personal data are made, state clearly what information is needed by whom, for which purposes, and by what means, prior to soliciting\u00a0consent.",
+        "examples": ""
+    },
+    "/patterns/Layered-policy-design": {
+        "summary": "",
+        "context": "",
+        "problem": "The controller needs to balance comprehension and comprehensiveness in their privacy policies in order to ensure that users choose to inform themselves. If they do not, then processing their information is\u00a0unlawful.",
+        "solution": "Extract the most crucial aspects of the privacy policy, which users are most likely to read, to the foreground. Nest successive detail levels within these components so that users can quickly find information that is relevant to\u00a0them.",
+        "examples": "See examples atTerms of Service Didn't Read. The average user would take76 work days to read the privacy policies they encounter each year."
+    },
+    "/patterns/Discouraging-blanket-strategies": {
+        "summary": "",
+        "context": "Socially oriented services on the Internet allow their often diverse userbase to share content. These masses of users and shared content are also varied enough to discourage individual attention. Controllers prefer to protect themselves from additional complexity and investment into features which provide them with less data. Users, however, feel in need of privacy settings to distinguish their personal risk appetite from that of the norm. They each have their own ideas about the sensitivities of their information, which makes sufficient controls difficult to\u00a0implement.",
+        "problem": "Overly simplified privacy settings following all or nothing strategies could result in over-exposure, self-censoring, and unsatisfied\u00a0users.",
+        "solution": "Provide users with the possibility to define a privacy level for content being shared with the controller, or with other users. Give them a range of visibilities, so that they can decide the access-level of the content being shared according to different users, or service-defined\u00a0groups.",
+        "examples": "This pattern may be used bySupport Selective Disclosure, as it makes up a foundation for a compound pattern.Discouraging blanket strategiesmay also be complemented bySelective Access Controland byDecoupling [content] and location information visibility. These patterns support each other to provide more flexible privacy setting management to\u00a0users."
+    },
+    "/patterns/Reciprocity": {
+        "summary": "",
+        "context": "In services where users may either socially or collaboratively contribute, participation may be a foundation for the service's business model. In these situations the quality and frequency of content affects the success of the service, and thus users have a large impact on its survival. Whether any single user contributes, or not, plays a role in profitability, which puts the controller in a position to encourage or enforce equal participation. Users may respond to such ideas negatively, however, especially if they do not see potential gains worthy of their effort and personal risks to\u00a0privacy.",
+        "problem": "Equal participation does not always result in equal rewards. In some cases, participants do not need to contribute at all to benefit from the content generated by the group. Any who feel slighted are then likely to contribute less, eventually jeopardizing results for the\u00a0group.",
+        "solution": "Limit the benefits gained from the group effort to the amount of effort contributed. All contribution should be afforded proportionate\u00a0gains.",
+        "examples": "TUKAN: The collaborative programming environment TUKAN introduced the concept of modes of collaboration (MoC) to ensure reciprocity. A MoC is a lightweight mode, which defines possible collaborative activities. It combines a specific level of privacy (cf.Masquerade) with the right of receiving information about other users. It thus provides a set of predefinedAttention Screens. This combination ensures that a user can only utilize information from other users at a privacy level on which he is also willing to reveal personal\u00a0information."
+    },
+    "/patterns/Asynchronous-notice": {
+        "summary": "",
+        "context": "",
+        "problem": "Users being tracked and monitored may not consent to processing they had previously consented to, as the context surrounding that processing is subject to\u00a0change.",
+        "solution": "Whenever there is a context switch, sufficient duration, or random spot check, provide users with a simple reminder that they have consented to specific processing. The triggers and means for contacting the user may be chosen by the user themselves, who should be able to review and if necessary retract their\u00a0consent.",
+        "examples": "Google Latitude users can configure a reminder email (see below) when their location is being shared with any application, including internal applications like the Location History\u00a0service."
+    },
+    "/patterns/Abridged-Terms-and-Conditions": {
+        "summary": "",
+        "context": "",
+        "problem": "",
+        "solution": "Summarize the legally sufficient Terms and Conditions into concise and relevant variations which suit the user's level of interest and attention. At first use of a service, users should be able to investigate further, but not have to read much to understand the risks\u00a0involved.",
+        "examples": "This patterncomplementsPrivacy Aware Wording,Layered Policy Design, andPrivacy-Aware Network Client."
+    },
+    "/patterns/Policy-matching-display": {
+        "summary": "",
+        "context": "",
+        "problem": "",
+        "solution": "Retrieve user policy preferences and use these to highlight contradictions with the privacy policy. Where possible, configure application settings to the values which best adhere to these\u00a0preferences.",
+        "examples": ""
+    },
+    "/patterns/Incentivized-Participation": {
+        "summary": "Users of a system have varying privacy concerns, and different sensitivities associated with their personal information. These users need ways to contribute without leaking sensitive details, or to perceive a worthwhile tradeoff for those details. This can be achieved through social encouragement (i.e. participation and shared trust), direct value exchanges (discounts and giveaways), or some other derived value (e.g. positive\u00a0reinforcement).",
+        "context": "",
+        "problem": "",
+        "solution": "Privacy concerns need to be met with valid reassurances about issues which matter to the user. Firstly, users should know that the system holds their preferences in high regard. Secondly, they should perceive real value in their participation. Finally, if desired, users should be assisted in a smooth transition into the\u00a0ecosystem.",
+        "examples": "Permission restricted Buddy Lists in Instant Messaging, or more extensive social networks; Allowing users to filter their sharing by access groups which they\u00a0define."
+    },
+    "/patterns/Outsourcing-[with-consent]": {
+        "summary": "",
+        "context": "Controllers often do not have the means to feasibly or sufficiently process the data they oversee to the extent they desire. In these cases they seek an external processor or third party to handle the process. This typically conflicts with their already obtained consent from their users (their data subjects), as further processing by a third party is not necessarily compatible with the agreed upon purposes. In these situations the controller does not have legally obtained consent for this processing and will be liable if they carry it\u00a0out.",
+        "problem": "Third party processors do not inherent user consent granted to a controller, but need each user's consent before they may process their information. The processor cannot contact the necessary users as they have no lawful access to any means to identify\u00a0them.",
+        "solution": "Obtain additional (Lawful Consent)[Lawful-Consent] for the specific purposes needed from each user before allowing the third party to process their data. Do not process the data of users who do not\u00a0consent.",
+        "examples": "The scenario described by Compagna et al. (2007) features a Health Care Centre (data controller) and a user (data subject), Bob, who needs constant supervision. The subcontractor, a Sensor Network Provider (third party supplier), installs and maintains the network responsible for automated monitoring of Bob's health. This subcontractor needs additional specific, informed, explicit, and freely given consent from\u00a0Bob."
+    },
+    "/patterns/Ambient-notice": {
+        "summary": "",
+        "context": "",
+        "problem": "Users are frequently unaware of the sensors currently tracking them. It is important that they understand that their personal data is being further collected in order for their informed consent to remain valid. This should be unobtrusive, however, so as to avoid notification fatigue or\u00a0desensitization.",
+        "solution": "Provide an unobtrusive but clearly visible notification while sensors are in use, without interrupting the flow of user activity. This notification should be interactive in order to prevent, delay, or further explain the data\u00a0collection.",
+        "examples": ""
+    },
+    "/patterns/Dynamic-Privacy-Policy-Display": {
+        "summary": "",
+        "context": "",
+        "problem": "Not all contexts are suitable for extensive privacy policy information, yet users often still need to be able to obtain additional data without breaking those\u00a0contexts.",
+        "solution": "Provide the user with additional relevant policy information on hover or tap, by way of 'tooltips', to best inform them given contextual limitations. In a mobile setting these tooltips may unobtrusively become available to tap when the relevant control is most in focus (i.e. selected, centered, or occupies most of the\u00a0screen).",
+        "examples": "When a user needs to login and is given numerous options, with limited space provided, each option can have an assigned tooltip. These can appear on hover, tap, or scroll, where necessary appearing with less opacity until the user taps the tooltip itself. It can also lead to further detail through '(see more)' in a recognizable blue underlined hyperlink format. To encourage use of this a variant may either scroll through detail or show a visible scroll bar. Not needing the user to leave the application or webpage will require less effort on their\u00a0part."
+    },
+    "/patterns/Privacy-Labels": {
+        "summary": "",
+        "context": "",
+        "problem": "Due to the effort required, users often do not investigate the various privacy policies of the services they use, leaving them uninformed about the potential consequences of their consent and choices. Services tend to have overly complex policies, and present them inconsistently, which agitates this\u00a0issue.",
+        "solution": "Present the user with an standardized privacy 'nutritional' label to quickly summarize policy\u00a0information.",
+        "examples": "Privacy Labels are currently implemented usingPrivacy Bird and Privacy FinderTheirsource codeis also\u00a0available."
+    },
+    "/patterns/Data-breach-notification-pattern": {
+        "summary": "",
+        "context": "",
+        "problem": "When data breaches occur, numerous risks become apparent for multiple parties, these parties need to be notified and the risks need to be mitigated. Subsequent instances should be prevented through lessons\u00a0learned.",
+        "solution": "Detect and react to data breaches quickly, notifying the supervisory authority of details, particularly risk mitigation, in order to establish whether users must also be informed. Properly handling these events will strengthen user trust rather than weaken\u00a0it.",
+        "examples": "Assume a [company] stores all employees' data [through a controller's service]. There is a contractual agreement between [them] that each data leakage is reported within one hour. Now Bob, an employee of [the controller] and not authorized to read [the company's] data, succeeds in circumventing [the] access control mechanisms and reads [personal] data. This represents a data breach of which [the company] has to be notified within an\u00a0hour."
+    },
+    "/patterns/Pseudonymous-messaging": {
+        "summary": "A messaging service is enhanced by using a trusted third party to\nexchange the identifiers of the communication partners by\u00a0pseudonyms.",
+        "context": "This pattern can be used for online communications by email, through\nmessage boards, and\u00a0newsgroups.",
+        "problem": "Messaging includes all forms of communication through emails,\narticles, message boards, newsgroups etc. This information could be\nstored and used to build sophisticated user profiles. Sometimes it can\nalso be used to prosecute\u00a0people.",
+        "solution": "A message is send by a user to the server, which exchanges the\nsender's address with a pseudonym. Replied messages are sent back to\nthe pseudonymous address, which will then be swapped back to the\u00a0original.",
+        "examples": "Alice is a political activist and tries to organize a political\ndemonstration. Since her government does not like free speech, her\ncommunication channels are intensely monitored and one day, she simply\ndisappears into a labor camp and is never seen\u00a0again."
+    },
+    "/patterns/Onion-routing": {
+        "summary": "This pattern provides unlinkability between senders and receivers by\nencapsulating the data in different layers of encryption, limiting the\nknowledge of each node along the delivery\u00a0path.",
+        "context": "A system in which data is routed between different\u00a0nodes.",
+        "problem": "When delivering data, the receiver has to be known. If the system\nprovides the functionality that the receiver of data should be able to\nanswer, than the receiver should also know the address of the sender.\nWhen forwarding information over multiple stations then, in a naive\nimplementation, each station on the delivery path knows the sender and\nthe final\u00a0destination.",
+        "solution": "The solution is to encrypt the data in layers such that every station\non the way can remove one layer of encryption and thus get to know the\nimmediate next station. This way, every party on the path from the\nsender to the receiver only gets to know the immediate successor and\npredecessor on the delivery\u00a0path.",
+        "examples": "Alice is a whistle-blower and tries to forward data to Bob who works at\nthe press. She sends the corresponding documents as an\ne-mail-attachment. Eve monitors the traffic and can see who sent this\nmail to whom. The next day, police raids Alice's apartment and sends\nher to jail. Bobs mail account gets\u00a0seized."
+    },
+    "/patterns/Strip-invisible-metadata": {
+        "summary": "Strip potentially sensitive metadata that isn't directly visible to the end\u00a0user.",
+        "context": "When a service requires a user to import data from external sources (eg.\npictures, tweets, documents) different types of metadata may be\ntransmitted. Users may not be aware of the metadata as it can be\nautomatically generated or not directly visible. Services might be\ninadvertently responsible for exposing private metadata, or going\nagainst users'\u00a0expectations.",
+        "problem": "Users are not always fully aware of the various kinds of metadata\nattached to files and web resources they share with online services.\nMuch of this data is automatically generated, or not directly visible to\nusers during their interactions. This can create situations where, even\nthough users share information explicitly with services, they may be\nsurprised to find this data being revealed. In certain cases where the\ndata is legally protected, the service could be held responsible for any\nleakage of sensitive\u00a0information.",
+        "solution": "Stripping all metadata that is not directly visible during upload time,\nor during the use of the service can help protect services from\nleaks and liabilities. Even in cases where the information is not\nlegally protected, the service can protect themselves from surprising\ntheir users and thus alienating\u00a0them.",
+        "examples": "Twitter.com removes EXIF data from images uploaded to their image\nsharing service. Previously there have been many breaches of personal\nlocation by using EXIF data shared by image sharing\u00a0services."
+    },
+    "/patterns/Pseudonymous-identity": {
+        "summary": "Hide the identity by using a pseudonym and ensure a pseudonymous\nidentity that can not be linked with a real identity during online\u00a0interactions.",
+        "context": "This pattern can be used for systems in which users are identified by\npublic\u00a0identities.",
+        "problem": "Many kinds of sensitive informations are released through web\ninteractions, email, data sharing or location-based systems, which can\ncontain the name of a user or header information in packets. Another\nproblem could be to interact anonymously in a forum. However too much\ninteraction in a forum with an anonymous identity can be dangerous in\nthe sense that the relation between original identity and a\npseudonymous identity can be\u00a0exposed.",
+        "solution": "Initiate a random pseudonym, that can not be related to the original,\nso that the identity is hidden. Furthermore a pseudonym depends on\nconcealment, so the pseudonym allocation needs\u00a0protection.",
+        "examples": "Assuming some students are writing an exam and they have to fill out a\nform about their identity, where there is an optional field for a\nchosen pseudonym. This way the result can be released under the chosen\npseudonyms and the identity of each student is hidden. But by being\nobservant, some students might be able to figure out which identity\nbelongs to which pseudonym and so the confidentiality of the identity\nis\u00a0compromised."
+    },
+    "/patterns/Personal-data-store": {
+        "summary": "Subjects keep control on their personal data that are stored on a\npersonal\u00a0device.",
+        "context": "The pattern is applicable to any data produced by the data subject (or\noriginally under his control) as opposed to data about him produced by\nthird\u00a0parties.",
+        "problem": "Data subjects actually lose control over their data when they are\nstored on a server operated by a third\u00a0party.",
+        "solution": "A solution consists in combining a central server and secure personal\ntokens. Personal tokens, which can take the form of USB keys, embed a\ndatabase system, a local web server and a certificate for their\nauthentication by the central server. Data subjects can decide on the\nstatus of their data and, depending on their level of sensitivity,\nchoose to record them exclusively on their personal token or to have\nthem replicated on the central server. Replication on the central\nserver is useful to enhance sustainability and to allow designated\nthird parties (e.g. health professionals) to get access to the\u00a0data.",
+        "examples": "Patients want to keep control over their health data but also to grant\nspecific access to some health\u00a0professionals."
+    },
+    "/patterns/Trust-Evaluation-of-Services-Sides": {
+        "summary": "",
+        "context": "When using a service (or product) offered by a controller, the level of trust held by users is crucial. Without sufficient trust, the users would seek alternatives or generate bad publicity. They will use a system more cautiously, regardless of whether it is necessary. In many systems this lessens the quality of service offered, not only to the user in question, but\u00a0holistically.",
+        "problem": "Users want to have reason to trust that a service does not undermine their personal privacy requirements. They do not want to have to take controllers, and third parties, at their word\u00a0alone.",
+        "solution": "Supply a function which informs users of the trustworthiness and reliability of services, and that of the third parties connected to those services. These qualities may be determined, and assured, through independent evaluation of given\u00a0criteria.",
+        "examples": "Determine an appropriate metric for evaluating trustworthiness of partners of the service who will receive personal data as third parties. This can be simple, such as meeting expectations, failing them, or exceeding them. PrimeLife suggests 'poor', 'fair', and 'good', with fair evaluations having neither negative nor positive influences. Blacklists or alert lists make for a poor evaluation regardless of positive\u00a0aspects."
+    },
+    "/patterns/Aggregation-gateway": {
+        "summary": "Encrypt, aggregate and decrypt at different\u00a0places.",
+        "context": "A service provider gets continuous measurements of a service attribute linked to a set of individual service\u00a0users.",
+        "problem": "The provision of a service may require detailed measurements of a service attribute linked to a data subject to adapt the service operation at each moment according to the demand load. However, these measurements may reveal further information (e.g. personal habits, etc.) when repeated over\u00a0time.",
+        "solution": "A feeder metering system can be added as a measuring rod which introduces a comparison for each group of\u00a0meters.",
+        "examples": "An electric utility operates a smart grid network with smart meters that provide measurements of the instantaneous power consumption of each user. The utility employs that information to adapt the power distribution in a dynamic fashion, according to the user demand at each\u00a0moment."
+    },
+    "/patterns/Privacy-icons": {
+        "summary": "A privacy policy which is hard to understand by general audience is summarized and translated into commonly agreed visual icons. A privacy icon is worth a thousand-word\u00a0policy.",
+        "context": "This pattern can be applied to any system which collects end user data. It can be presented in an interactive web page but also as part of a physical product which can collect data (e.g. fitness\u00a0tracker)",
+        "problem": "Many organizations provide privacy policies which are too lengthy and hard to understand by the general audience. These policies are oriented as legal disclaimers for legal issues, rather than to inform end users so they can consent to the organization practices after being clearly informed of the collected data, its purpose, and the processing and potential sharing with third\u00a0parties.",
+        "solution": "Include within the service/device a very accessible and visual explanation of the privacy policy. Icons are a great complement to written text, as they may convey much information at a glance through a different modality (images). Standardized icon sets may thus be added to the privacy\u00a0policy.",
+        "examples": "Alice buys a fitness tracker and she is aware that the device collects her location, and sends it to a central web service in order to provide her with her fitness statistics (her fitness routes, the time spent...). The device provider aggregates this data and provides a business analytics service to third\u00a0parties."
+    },
+    "/patterns/Privacy-aware-network-client": {
+        "summary": "",
+        "context": "",
+        "problem": "Privacy policies are typically written to satisfy legal requirements ahead of conveying concise and easily understandable information to users. This makes users less informed\u00a0overall.",
+        "solution": "Provide a privacy preserving proxy which securely parses and interprets the privacy policies of controllers, supplying users with standardized and easily understood summaries of those\u00a0policies.",
+        "examples": "Alice uses several web-based services but is not aware of the their privacy policies. Even when she reads the policies, she is still not aware of the actual implications of the legal description. In the absence of other solutions, she does not read the policies and does not understand the\u00a0ramifications."
+    },
+    "/patterns/Sign-an-Agreement-to-Solve-Lack-of-Trust-on-the-Use-of-Private-Data-Context": {
+        "summary": "",
+        "context": "Users do not inherently trust controllers who provide services (or products), as they do not have assurances as to what the controller's or their processor's true intentions are. Controllers and processors typically aim to make profit, but this might be at the expense of users if those users do not consider their privacy needs. The controller might have reasonable defaults orlevels of control, but users also need to feel reassured that their choices are being honored. This is especially true of what they do or do not provideLawful Consentfor.",
+        "problem": "The controller does not necessarily have the trust of its users, and needs this trust for its services to process their\u00a0data.",
+        "solution": "The service should provide the user with a contractual agreement (featuring privacy policy) which binds the controller to their word, provided that the user consents to the processing of data needed for specific purposes. The agreement should also bind any representative of the controller. It should be straightforward and clear enough for the user to\u00a0comprehend.",
+        "examples": ""
+    },
+    "/patterns/Single-Point-of-Contact": {
+        "summary": "",
+        "context": "Many controllers make use of a storage platform (i.e. 'cloud' facilities), such as e-Health services that keep their sensitive patient data in a distributed online storage. The sensitivity of this information raises concern and garners a need for special care. The storage medium in this case rules out typical security\u00a0approaches.",
+        "problem": "Effective distributed storage services require specialized privacy management. The deficiencies of traditional means may be expressed through the\u00a0following:",
+        "solution": "Single Point of Contact\u00a0adopts a claim-based approach for both authentication and authorization similar to a super-peer design, also acting as a (Resource) Security Token Service, an Identity and Attribute Provider, and a Relying Party. It features a tried and proven\u00a0expressive e-consent\u00a0language, and can communicate with other SPoCs in a Circle of\u00a0Trust",
+        "examples": ""
+    },
+    "/patterns/Informed-Implicit-Consent": {
+        "summary": "",
+        "context": "",
+        "problem": "A controller needs to collect and otherwise process reasonable information to fulfill their legitimate interests regarding a user, but cannot feasibly acquire each user's explicit\u00a0consent.",
+        "solution": "Provide clear and concise notice that by using the service, the user implicitly consents to the processing necessary to fulfill legitimate interests. Ensure that this notice is perceived prior to the application of the effects it\u00a0describes.",
+        "examples": "Given a Sensor Network, Provider, and Controller, collected data is delegated by the Controller through the Provider to the Sensor Network. The Sensor Network collects some data with explicit consent, but this data may also be personal for a user who has not given such consent. This data may be potentially identifying, and thus the user should be informed prior to its processing. The Controller must ensure that the Provider of the Sensor Network provides any potential users with unambiguous warning of the collection, and that individual consent is infeasible. This may make use of a clear and legible warning sign. The Sensor Network itself should also be visible and obvious, clearly indicating when collection is ongoing. Societal norms may dictate this, such as security cameras in some contexts (commercial areas where valuables may be stolen) needing little\u00a0warning."
+    },
+    "/patterns/Enable-Disable-Functions": {
+        "summary": "",
+        "context": "Users frequently have data collected about them, often in situations where it needn't be. Many of these cases are due to good intentioned, expansive, functionality. Not all users seek to take advantage of all functions, however. Some controllers aim to consider this in their\u00a0designs.",
+        "problem": "Not all users desire or benefit from all\u00a0functionality.",
+        "solution": "Enable users to choose which functions they do not consent to using, nor wish to provide the required data\u00a0for.",
+        "examples": "In the shown privacy consent form each function, which utilises personal context information, is listed. Furthermore, the user is able to activate or to deactivate the functions, e.g., to enable a live stream or to enable predicting her next\u00a0context."
+    },
+    "/patterns/Privacy-color-coding": {
+        "summary": "",
+        "context": "",
+        "problem": "Users do not investigate policies and preferences due to the effort required, and cannot inherently comprehend the consequences of settings otherwise. The poor understanding of these can lead to undesirable\u00a0disclosures.",
+        "solution": "Present the user with standardized color visual cues to help guide them in selecting privacy friendly settings, and in understanding the policies around those\u00a0settings.",
+        "examples": "Alice uses a social network and shares personal stories only with her friends while she shares mundane content publicly. Hence she always has to change the privacy settings of her posts in order to adjust the visibility of the posts. One day she forgets to change the setting and does not realize that she actually shared a precarious story with her\u00a0boss."
+    },
+    "/patterns/Appropriate-Privacy-Icons": {
+        "summary": "",
+        "context": "",
+        "problem": "Privacy icons are easily misunderstood, as they are oversimplified concepts using imagery shared with numerous other concepts. Even when fully grasped, important information may be overlooked when finer details play a\u00a0role.",
+        "solution": "Introduce the user to a consistent set of icons, carefully grouped and not excessive, and explain their meaning. Explanations should be short and concise, and these paired with the icons should be put through user tests. Users should be able to understand the icons when shown them in\u00a0context.",
+        "examples": "Currently, most of these are only applied by client-side\u00a0solutions."
+    },
+    "/patterns/User-data-confinement-pattern": {
+        "summary": "Avoid the central collection of personal data by shifting some amount\nof the processing of personal data to the user-trusted environments\n(e.g. their own devices). Allow users to control the exact data that\nshares with service\u00a0providers",
+        "context": "This pattern may be used whenever the collection of personal data with\none specific and legitimate purpose still pose a relevant level of\nthreat to the users'\u00a0privacy",
+        "problem": "The engineering process is biased to develop system-centric\narchitectures where the data is collected and processed in single\ncentral entities, forcing users to trust them and share potentially\nsensible personal\u00a0data",
+        "solution": "The solution is to shift the trust relationship, meaning that instead\nof having the customer trust the service provide to protect its\npersonal data, the service provider now haves to trust the customers'\u00a0processing.",
+        "examples": "The smart grid is a domain with a clear example: having smart meters\ndelivering hourly customers' energy consumption to the energy provider\nposes a serious threat to the customers' privacy. If the only purpose\nof collecting these data is to bill the customer, why cannot this\ncalculation be done by the customer based on pre-established\u00a0tariffs?"
+    },
+    "/patterns/Icons-for-Privacy-Policies": {
+        "summary": "",
+        "context": "",
+        "problem": "Users struggle to understand privacy policies, even when reduced to a reasonable length. This discourages them from putting in the effort required to understand risks to their data, and invalidates\u00a0consent.",
+        "solution": "Use privacy icons to aid in describing, grouping, and distinguishing the various policies in a privacy policy document. The icons should not allow for misinterpretation, which shall require user testing. Using consistent icons in a standardized way will promote\u00a0understandability.",
+        "examples": "Alice buys a fitness tracker and she is aware that the device collects her location, and sends it to a central web service in order to provide her with her fitness statistics (her fitness routes, the time spent...). [She immediately consents to this even though it asks to first read a privacy policy.] The device controller [consequently] aggregates this data and provides a business analytics service to third\u00a0parties."
+    },
+    "/patterns/Obtaining-Explicit-Consent": {
+        "summary": "",
+        "context": "In order to offer services (or products) to users (data subjects), controllers often need to collect (process) user data. Sometimes this is sensitive, identifying, or just metadata or other information which may be correlated to become more invasive. This nonetheless enables them to offer competitive features and\u00a0functionality.",
+        "problem": "Controllers which aim to make use of user data, especially that which can be used to identify the user or sensitive aspects about the user, may not do so without a legally binding and sound acquisition of the user's\u00a0consent.",
+        "solution": "Provide a clear and concise notification of all pertinent information the service could derive provided it had all the data it asks for. Indicate what this means for features and functionality. Then ask the user whether this tradeoff is something they consent to. If true, digitally signify and timestamp their response, or useContractual Consent.",
+        "examples": ""
+    },
+    "/patterns/Privacy-Mirrors": {
+        "summary": "",
+        "context": "Controllers process a lot of personal data within the services (or products) which users use. These users should however be made to understand the risks involved in all the processing. Typically users need to be encouraged to review what data a service uses, and whether they consent to this. When provided with lock icons for certificates, or privacy coordination through color, users often still overlook warnings. Users want information to be streamlined, quick, and easy to digest in order to benefit from a service without\u00a0delay.",
+        "problem": "Users are frequently unaware of the personal data which a system processes and may use to draw conclusions from. Due to this, they either accept their data's undefined usage, or limit their disclosure, potentially more than needed, which could result in an poorer user\u00a0experience.",
+        "solution": "Provide a framework for socio-technical systems which allow users to consider their privacy in context, and make decisions to cater for their personal\u00a0needs.",
+        "examples": "A Groupware Calendar System (GCS), 'Augur', Tullio, J., Goeckes, J., Mynatt, E.D, and Nguyen, D.H. Augmenting Shared Personal Calendars. Submitted to UIST'02 Paris,\u00a0France."
+    },
+    "/patterns/Appropriate-Privacy-Feedback": {
+        "summary": "",
+        "context": "",
+        "problem": "",
+        "solution": "Visible feedback loops, which capture the user's attention, are needed to help ensure that users understand what data is being collected, who can see that data, and how might it be\u00a0used.",
+        "examples": ""
+    },
+    "/patterns/Impactful-Information-and-Feedback": {
+        "summary": "",
+        "context": "Users are frequently in a rush to use services at the same pace as their own ever quickening lifestyles. Such value for time can leave them unaware of the potential for mistakes, such as in automatic media sharing, or the careless disclosure of information in their contributions. These mistakes may disclose personally identifiable information, or otherwise undesirable associations. Sometimes whether the information is appropriate is dependent on the audience, or some other contextual element. Controllers who provide services to these users do not fare well when these instances occur, as they provide the means for it to happen. As such, they tend to want to be proactive in handling such\u00a0issues.",
+        "problem": "A lack of user awareness in the moment can lead to regretted disclosure, whether this disclosure is manually or automatically\u00a0performed.",
+        "solution": "Use contextual privacy warnings, through analytical measures and historical queues to provide relevant information and suggestions regarding pending\u00a0disclosures.",
+        "examples": "Systems can reduce user uncertainty about factors important to disclosure choices. For example, systems may be able to estimate the audience for a particular disclosure at decision-time,\nthereby reducing uncertainty and influencing user choices. Systems could use social comparison, such as decisions made by friends or other users in similar context, to reduce uncertainty about relevant norms for disclosure. Finally, tools for viewing photo \u201cdisclosures\u201d in ways similar to how others will view these photos could help users understand the content and appearance of their\u00a0disclosures."
+    },
+    "/patterns/Decoupling-[content]-and-location-information-visibility": {
+        "summary": "",
+        "context": "Users often share content in socially oriented services on the Internet. The applications used for uploading this content may attach location information. Controllers can use or publicize this information, allowing others to use it. Sufficient correlations can infringe upon the user's privacy\u00a0expectations.",
+        "problem": "Concerns about disclosing location information conflict with the appeal of location information for [content]\u00a0organization.",
+        "solution": "Allow users to retroactively decide upon the disclosure of location information with respect to the context of the particular content. Record location information by default, but do not automatically share\u00a0it.",
+        "examples": "This pattern is one of various foundations forSupport Selective Disclosure, and thus may be used by it. This patternmust useLawful Consenthowever, as information is recorded by default and only interacted with afterward. This requires the users true and informed\u00a0approval."
+    },
+    "/patterns/Platform-for-Privacy-Preferences": {
+        "summary": "",
+        "context": "",
+        "problem": "",
+        "solution": "Controllers may use the P3P standardization of terms and data elements to construct their privacy policies, allowing users to instead immediately see the policy distinctions which matter before using the service. The policies they share with other controllers the user is subject to will already have been reviewed, or are separated such that minimal time is spent reviewing\u00a0policy.",
+        "examples": "The following example is taken from the P3P1.0\u00a0specification:"
+    },
+    "/patterns/Selective-Access-Control": {
+        "summary": "",
+        "context": "Users enjoy social reaction when posting content in socially oriented services on the Internet. Though sometimes the reactions are not as ideal. Some content is inappropriate for some audiences, and some users would rather keep some content mostly private. While users are capable of sharing content privately, perhaps throughPrivate Link, they may wish to have better control over whom they share with in their service of choice. The controller providing this service may too want its users to share more\u00a0specifically.",
+        "problem": "Users want to control the visibility of the content being shared, because it may not currently be appropriate for all\u00a0users.",
+        "solution": "Provide users with the option to define the audience of their contributions by specifying the access rules to their\u00a0[content].",
+        "examples": "Selective Access Controlis complemented byPrivate link, which focuses on private sharing with anonymous users while this pattern defines the audience for a contribution. It is a part of theSupport Selective Disclosurecompound pattern, and thus may be used by\u00a0it."
+    },
+    "/patterns/Pay-Back": {
+        "summary": "",
+        "context": "In services where users may contribute content, or provide the system with account or profile information, the information is only valuable if relevant and accurate. For controllers providing this service (or product), worthless information does not typically generate income or future participation. Without consistent usage, a service becomes less popular and eventually may run at loss. This is particularly true in socially oriented services. To keep the service working, it is crucial that its users maintain content. Users however, might not feel inclined to do so. Keeping content up to date, or adding it in the first place, requires effort, and in some cases an acceptance of privacy\u00a0risk.",
+        "problem": "Users do not necessarily want to provide and maintain content, they need a motivation to do so. Without this, a service will not\u00a0flourish.",
+        "solution": "Provide users with different kinds of benefits when they contribute or maintain content for the service and make sure they do so\u00a0consensually.",
+        "examples": ""
+    },
+    "/patterns/Privacy-dashboard": {
+        "summary": "",
+        "context": "",
+        "problem": "",
+        "solution": "Provide successive summaries of collected or otherwise processed personal data for a particular user, representing this data in a meaningful way. This can be through demonstrative examples, predictive models, visualizations, or\u00a0statistics.",
+        "examples": ""
+    },
+    "/patterns/Preventing-Mistakes-or-Reducing-Their-Impact": {
+        "summary": "",
+        "context": "",
+        "problem": "Immediate and automatic content publication without notification or confirmation of consent leads to unintentional disclosure and may invalidate prior\u00a0consent.",
+        "solution": "Use contextual measures to predict whether content should be processed, re-establishing consent, to prevent accidental\u00a0disclosure.",
+        "examples": "Through the study of [trends] in disclosure behavior, systems may be able to helpfully warn users when disclosing following potentially significant change in context, perhaps reducing potential for mistakes. As [Ahern et al.] found that privacy decisions are often correlated with the context of capture and the content of the photo as indicated by user-specified tags, it could be feasible to use these patterns for prediction or recommendation of privacy settings. In addition, providing an optional \u201cstaging area\u201d before disclosure actually takes place and an easy way to review recent disclosures may reduce the immediate consequences of quickly regretted or accidental disclosure\u00a0decisions."
+    },
+    "/patterns/Obligation-management": {
+        "summary": "The pattern allows obligations relating to data sharing, storing and\nprocessing to be transferred and managed when the data is shared\nbetween multiple\u00a0parties.",
+        "context": "The developer aims to make sure that multiple parties are aware of and\ncomply with required user/organisational policies as personal and\nsensitive data are successively shared between a series of parties who\nstore or process that\u00a0data.",
+        "problem": "Data may be accessed or handled by multiple parties that share data\nwith an organisation in ways that may not be approved by the data\u00a0subject.",
+        "solution": "Service providers use an obligation management system. Obligation\nmanagement handles information lifecycle management based on\nindividual preferences and organisational policies. The obligation\nmanagement system manipulates data over time, ensuring data\nminimization, deletion and notifications to data\u00a0subjects.",
+        "examples": "A service provider subcontracts services, but requires that the data\nto be deleted after a certain time and that the service provider\nrequires to be notified if there is further\u00a0subcontracting."
+    },
+    "/patterns/Informed-Credential-Selection": {
+        "summary": "",
+        "context": "",
+        "problem": "Credentials which users supply may be more invasive than necessary, this is a kind of consent which legally must be\u00a0informed.",
+        "solution": "Allow granular credential selection which explains to users the various ways in which personal data can be used, including who may access it, and how it may be used to derive further\u00a0information.",
+        "examples": "Jiang et al. (2010). \"A Classified Credential Selection Scheme with Disclosure-minimizing Privacy\". International Journal of Digital Content Technology and its Applications, 4 (9), December 2010. 201 -\u00a0211."
+    },
+    "/patterns/Anonymous-reputation-based-blacklisting": {
+        "summary": "Get rid of troublemakers without even knowing who they\u00a0are.",
+        "context": "A service provider provides a service to users who access anonymously, and who may make bad use of the\u00a0service.",
+        "problem": "Anonymity is a desirable property from the perspective of privacy. However, anonymity may foster misbehaviour, as users lack any fear of\u00a0retribution.",
+        "solution": "First, the service provider provides their users with credentials for anonymous\u00a0authentication.",
+        "examples": "A wiki allows any visitor to modify its contents, even without having been authenticated. Some malicious visitors may vandalize the contents. This fact is signalled by the wiki administrators. If a visitor coming from the same IP address keeps vandalizing the site, they will earn a bad reputation, and their IP will be banned from modifying the contents anymore. However, users accessing through a Tor anonymity network proxy cannot be identified from their IPs, and thus their reputation cannot be\u00a0tracked."
+    },
+    "/patterns/Negotiation-of-Privacy-Policy": {
+        "summary": "",
+        "context": "Often when users find a service (or product) they would like to use, and begin signing-up, they are immediately exposed to assumptions which may not hold for them. As users have differing privacy priorities, a controller cannot guess as to what settings best accommodate them. Since these preferences may be intricate, users cannot be expected to specify them in detail all at once or before using the\u00a0service.",
+        "problem": "Users have sometimes wildly different priorities regarding their privacy, though a controller does not know these details when a user first joins a service. There is a temptation to provide these users the settings the average user\u00a0uses.",
+        "solution": "As users begin to use a service, determine their individual privacy sensitivities by allowing them to opt-in/opt-out of account details, targeted services, and telemetry. When a user's preference is not known, assume the most privacy-preserving settings. It should always take more effort to over-share than to\u00a0under-share.",
+        "examples": ""
+    },
+    "/patterns/Reasonable-Level-of-Control": {
+        "summary": "",
+        "context": "Users have certain expectations about what level of privacy they can expect in certain contexts. In general, they are given the means to provide themselves with as much or little shielding from intrusions as they need. This expectation carries over to usage of services (or products) offered by a Controller. Users expect that they can have an impact on what about them is known to a service, or others that use the\u00a0service.",
+        "problem": "Users expect to be afforded sufficient self-determination over what information about them is collected or otherwise processed. The level of information and control desired, however, varies from person to person, as does the negative response when expectations are not\u00a0met.",
+        "solution": "Allow users to selectively and granularly provide information to a service, or its users, and have select information available to user-defined or predetermined\u00a0groups.",
+        "examples": "This pattern isrefinedbySelective Access Controlfor socially oriented services,Negotiation of Privacy Policy, and byDecoupling [content] and location information visibility. TheNegotiation of Privacy Policypattern talks about methods which allow users to share their information (selectively and granularly) while this pattern provides these kinds of features at the beginning of the service's use.Decoupling [content] and location information visibilityprovides a means of control for attaching location to content. It is compliant with this pattern's solution in a more specific\u00a0scenario."
+    },
+    "/patterns/Masquerade": {
+        "summary": "",
+        "context": "Users are frequently monitored for various reasons by a service (or product), for instance to associate them with shared activity. Monitoring is sometimes needed to allow users to know certain attributes about one another which can assist them in communicating or otherwise participating. This monitoring is sometimes apparent to the user, opted-in, or unavoidable. This may cause some users distress, or affect their actions for better or for worse. Many working environments additionally feature productivity tracking software or the ability toGaze Over the Shoulder. This of course allows any altered activity to have an effect on work performance, or its perception. Mandatory tracking is commonly undesirable for users, and in these cases can negatively affect user\u00a0experience.",
+        "problem": "Users act differently under active supervision, and this may negatively impact their content\u00a0generation.",
+        "solution": "Allow users to select their desired identifiability for the context in question. They may reveal some subset of the interaction or account attributes and filter out the\u00a0rest.",
+        "examples": "This pattern may be used byReasonable Level of Control, as contextual identifiability may be featured in the application ofReasonable Level of Control. It is also complemented byPrivate link, which is one such method to provide information to a specific audience, andActive broadcast of presence, broadening the scope for the audience\u00a0instead."
+    },
+    "/patterns/Buddy-List": {
+        "summary": "",
+        "context": "Users frequently interact upon various media, forums, and communication channels. There are however far more users on these channels than most would be comfortable wading through. As controllers for such channels, many services wish to aid their users in finding familiar and comfortable interactions. Users may also seek to participate outside their immediate circles, but may aim not to stray too\u00a0far.",
+        "problem": "When many users are able to interact in the interaction space, it is hard to maintain an overview of relevant interaction partners since the number of users exceeds the number of relevant contacts for a specific user. User lists grow very large and it is hard to find people who the local user knows. On the other hand, the local user is [more interested in close\u00a0contacts].",
+        "solution": "Allow users to find and assign others to a user-maintained directory of social circles and contexts to interact with. This is optionally only visible to the users\u00a0themselves.",
+        "examples": "Buddy Listmay be used byMasquerade, as it may assist in choosing whom to reveal potentially or deliberately identifying information to. It may also be complemented byReciprocityas quid pro quo for connections. Those who are on a user's list will have the user on their own lists. This same property holds forIncentivized Participationif itusesReciprocity."
+    },
+    "/patterns/Privacy-Awareness-Panel": {
+        "summary": "",
+        "context": "",
+        "problem": "Users do not anticipate the pitfalls of disclosure. They may be under the false impression that their activities are inherently\u00a0anonymous.",
+        "solution": "Provide the user with reminders on who can see the content they have or will disclose, what is done with it, why, and how it might become\u00a0identifying.",
+        "examples": "In a forum setting, a Privacy Awareness Panel may include login and account information, any personalizations, as well as information relating to their browser, session, IP, or other metadata which can uniquely identify them to a degree. It could also show post and user interaction history, and what, if any, of this information is more widely available or public. The panel should be easily located and known about by users, for instance introduced on first use of the forum. Unauthenticated users should also have access to this panel, though there would be less information on these\u00a0users."
+    },
+    "/patterns/Lawful-Consent": {
+        "summary": "This pattern covers in detail the legal and social obligations surrounding a data subject's consent to processing of their data in specific circumstances. Every use of the subject's personal data should be covered by an explicit agreement in which the data subject was made aware of the implications of their\u00a0consent.",
+        "context": "",
+        "problem": "",
+        "solution": "A user should be given every opportunity to assess their sharing choices prior to making their consent. The controller should aid the user in comprehending the tradeoffs apparent in using each of their services, without over-burdening the user. These consented services should be purposed-separated, so that users may make use of functionality without first granting unnecessary\u00a0consent.",
+        "examples": ""
+    },
+    "/patterns/Privacy-Aware-Wording": {
+        "summary": "",
+        "context": "",
+        "problem": "Information the controller conveys to the user is frequently overlooked due to length and complexity of both the content and the vocabulary within, which compromises validity of\u00a0consent.",
+        "solution": "Construct privacy related information using easily parsed and low difficultly vocabulary, with short concise sentences and enough flow to persuade the user to process\u00a0it.",
+        "examples": "Referring to the user as the data subject or otherwise introducing terms to the user may reduce reading comprehension. Instead of focusing on legally accurate terms, the information should make sense to the user. It should not be provide a false interpretation, however. The PrimeLife example features a mock corporation which summarises information according to 'what', 'how', and\u00a0'who'."
+    },
+    "/patterns/Sticky-policy": {
+        "summary": "Machine-readable policies are sticked to data to define allowed usage\nand obligations as it travels across multiple parties, enabling users\nto improve control over their personal\u00a0information.",
+        "context": "Multiple parties are aware of and act according to a certain policy\nwhen privacy-sensitive data is passed along the multiple successive\nparties storing, processing and sharing that\u00a0data.",
+        "problem": "Data may be accessed or handled by multiple parties that share data\nwith an organisation in ways that may not be approved by the data\u00a0subject.",
+        "solution": "Service providers use an obligation management system. Obligation\nmanagement handles information lifecycle management based on\nindividual preferences and organisational policies. The obligation\nmanagement system manipulates data over time, ensuring data\nminimization, deletion and notifications to data\u00a0subjects.",
+        "examples": "When data is shared by an organisation they can use privacy preserving\npolicy to enforce respecting user privacy by third party organisations\nthat use, process and store such data. For example, a hospital may\nshare data with third party organisations requiring adhering to\nspecific privacy policies associated with the\u00a0data."
+    },
+    "/patterns/Personal-Data-Table": {
+        "summary": "",
+        "context": "Controllers which maintain software systems that process user data, especially identifying or sensitive data, are subject to various laws. In the case of personal data, transparency about processing is particularly important. Users (the data subjects) also care to know about what data is used, and what might be done with that data, at various degrees. Users do not often want to be constantly notified or reminded, as many of them would rather spend their time actually using the system. Some users, however, care about more intricate detail, and are entitled to it. Nonetheless, if verbose information is provided, it should be\u00a0sensible.",
+        "problem": "The controller wants to be upfront about what they know and can do with personal data which might be of importance to those users. They only want users to know about data and risks pertaining to them\u00a0specifically.",
+        "solution": "Keep track of the processing that occurs on personal data so that users can view the activities associated with their data and review their preferences in a tabular\u00a0environment.",
+        "examples": "Figure 1 shows the actual design of the personal data table pattern implementation for a Quantified Self data store, the Nutritional Research Cohort (NRC). The NRC is a cohort of researchers in nutrition and health sciences who gather self-assessment data on their lifestyle and their health. NRC gives access to information on personal health trajectory, and the effects of diet on personal health. For each column, a mouse overlay details the meaning of the column name. This solution implements an overview of which data is collected, whether data is private or shared with others, for which purpose the data is used, which external parties requested the data, and who downloaded the data and when. This overview is shown on a special page in a myData section of the NRC\u00a0application."
+    },
+    "/patterns/Informed-Consent-for-Web-based-Transactions": {
+        "summary": "",
+        "context": "User data is frequently collected for various purposes. Sometimes this data is personal, personally identifying, or otherwise sensitive. The data may serve to improve a service (or product) offered by a controller, or to provide relevant suggestions or advertisements to users. This is particularly prevalent on the web, as many websites derive most of their income from this data. Where income is instead in the form of purchase, user data is nonetheless needed to provide billing or shipping information. This includes auditing, logging, or other non-repudiation purposes to facilitate\u00a0transactions.",
+        "problem": "Before collecting data, controllers must make sure users provide informed\u00a0consent.",
+        "solution": "Provide the user with clear and concise information regarding what may be learned from their data, and how that data can be used to offer or improve the service. Then acquire their explicit, freely-given\u00a0consent.",
+        "examples": "Informed Consent for Web-based Transactionsmay be used byLawful Consent, as it is one of the compound pattern's possible\u00a0constituents."
+    },
+    "/patterns/Added-noise-measurement-obfuscation": {
+        "summary": "Add some noise to service operation measurements, but make it cancel itself in the\u00a0long-term",
+        "context": "A service provider gets continuous measurements of a service attribute linked to a service\u00a0individual.",
+        "problem": "The provision of a service may require repeated, detailed measurements of a service attribute linked to a data subject to e.g. properly bill them for the service usage, or adapt the service according to the demand load. However, these measurements may reveal further information (e.g. personal habits, etc.) when repeated over\u00a0time.",
+        "solution": "A noise value is added to the true, measured value before it is transmitted to the service provider, so as to obfuscate it. The noise abides by a previously known distribution, so that the best estimation for the result of adding several measurements can be computed, while an adversary would not be able to infer the real value of any individual measurement. Note that the noise needs not be either additive or Gaussian. In fact, these may not be useful for privacy-oriented obfuscation. Scaling noise and additive Laplacian noise have proved more useful for privacy\u00a0preservation.",
+        "examples": "An electric utility operates a smart grid network with smart meters that provide measurements of the instantaneous power consumption of each user. The utility employs that information to both adapt the power distribution in a dynamic fashion, according to user demand at each moment, and bill the each client periodically, according to his aggregated consumption over the billing period. However, this information can also be exploited to infer sensitive user information (e.g. at what time he or she leaves and comes back to home,\u00a0etc.)"
+    },
+    "/patterns/Increasing-Awareness-of-Information-Aggregation": {
+        "summary": "",
+        "context": "",
+        "problem": "Poor awareness of data aggregation capabilities can lead to unintentionally revealing information being disclosed. Processing this personal data goes against the principles of data\u00a0protection.",
+        "solution": "Provide users with knowledge of data aggregation's ability to reveal undesirable information to prevent them from over sharing. Take users through a hypothetical example to aid in conveying\u00a0this.",
+        "examples": "CryptPadProvides a thorough and clear explanation of their Data Aggregation usage which is linked to from the 'What is CryptPad' page in every instance. Towards the end of the blog post they include graphs to show how useful the data can be, but they also explain what they access, can (but do not) access, and what they cannot access. While this example explains aggregation well, and features a concise summary at the beginning, it could still be better highlighted before a user's first use of the\u00a0service."
+    },
+    "/patterns/attribute-based-credentials": {
+        "summary": "",
+        "context": "",
+        "problem": "",
+        "solution": "",
+        "examples": ""
+    },
+    "/patterns/Trustworthy-privacy-plugin": {
+        "summary": "Aggregate usage records at the user side in a trustworthy\u00a0manner.",
+        "context": "A service provider gets continuous measurements of a service attribute linked to a service individual. Applicable service tariffs may vary over\u00a0time.",
+        "problem": "The provision of a service may require repeated, detailed measurements of a service attribute linked to a data subject to e.g. properly bill them for the service usage. However, these measurements may reveal further information (e.g. personal habits, etc.) when repeated over\u00a0time.",
+        "solution": "Host a Privacy Plugin at a consumer-trusted device, in between the metering and the billing systems. and the service provider in charge of billing for the service usage. This privacy plugin, under the consumer\u2019s control, computes the aggregated invoice and sends it to the service provider (or to its billing subsystem), which does not need any fine-grained consumption records anymore. Cryptographic techniques (homomorphic commitments, zero-knowledge proofs of knowledge, digital signatures) are used to ensure trustworthiness of the generated invoices without requiring tamper-proof\u00a0hardware.",
+        "examples": "An electric utility operates a smart grid network with smart meters that provide measurements of the instantaneous power consumption of each user. Depending on the power demand, dynamic tariffs are applied. The utility employs that information to bill each client periodically, according to his aggregated consumption over the billing period and the respective tariffs at each moment. However, this information can also be exploited to infer sensitive user information (e.g. at what time he or she leaves and comes back to home,\u00a0etc.)"
+    },
+    "/patterns/Support-Selective-Disclosure": {
+        "summary": "Many services (or products) require the collection of a fixed, often large, amount of personal data before users can use them. Many users, instead, want to freely choose what information they share. This pattern recommends that services Support Selective Disclosure, tailoring functionality to work with the level of data the user feels comfortable\u00a0sharing.",
+        "context": "",
+        "problem": "",
+        "solution": "Determine what information is integral to the functioning of the system. If functionality may be sustained with less, it should be an option for the user, even if doing so comes with reduced usability. Additionally, provide anonymous functionality only where it cannot jeopardise the service. Lower levels of anonymity may be provided in relation to various capabilities for\u00a0abuse.",
+        "examples": "This pattern may be complemented byMasquerade, as together they may focus on audience and identifiability when determining disclosure\u00a0choices."
+    },
+    "/patterns/Private-link": {
+        "summary": "",
+        "context": "The controller provides a service which hosts resources, potentially constituting personal data. When users want to share (and enable re-sharing of) these resources, they may wish to do so privately using existing communication mechanisms. This is particularly relevant when users are sharing with contacts who would rather not, or cannot, simply\u00a0authenticate.",
+        "problem": "Users want to share a private resource with unauthenticated users in a way that respects the sensitivity of that resource.\nThe solution must not allow users to access resources that weren't intended to be shared, nor publicize the location of the intended resource to unintended\u00a0recipients.",
+        "solution": "Provide the user aprivate linkorunguessable URLfor a particular resource, such as a set of their personal information (e.g. their current location, an album of photos). Anyone who has the link may access the information, but the link is not posted publicly or guessable by an unintended recipient. The user can share the private link with friends, family or other trusted contacts who can in turn forward the link to others who will be able to access it, without any account authentication or access control\u00a0lists.",
+        "examples": "Private linkmay be complemented byActive broadcast of presence, which deals with sharing with all people, while this pattern considers specific audience. They could together broadcast a more public kind of link.Private linkmay also be used bySupport Selective Disclosureas a means to provide anonymous access in a resource sharing\u00a0context."
+    },
+    "/patterns/Anonymity-set": {
+        "summary": "This pattern aggregates multiple entities into a set, such that they\ncannot be distinguished\u00a0anymore.",
+        "context": "This pattern is applicable in a messaging scenario, where an attacker\ncan track routing information. Another possible scenario would be the\nstorage of personal information in a\u00a0database.",
+        "problem": "In a system with different users we have the problem that we can often\ndistinguish between them. This enables location tracking, analyzing\nthe behaviour of the users or other privacy-infringing\u00a0practices.",
+        "solution": "There are multiple ways to apply this pattern. One possibility is, to\nstrip away any distinguishing features from the entities. If we do not\nhave enough entities, such that the anonymity set would be too small,\nthen we could even insert fake\u00a0identities.",
+        "examples": "Assuming that there are two companies, one is a treatment clinic for\ncancer and the other one a laboratory for research. The Clinic\nreleases its Protected Health Information (PHI) about cancer victims\nto the laboratory. The PHI's consists of the patients' name, birth\ndate, sex, zip code and diagnostics record. The clinic releases the\ndatasets without the name of the patients, to protect their privacy. A\nmalicious worker at the laboratory for research wants to make use of\nthis information and recovers the names of the patients. The worker\ngoes to the city council of a certain area to get a voter list from\nthem. The two lists are matched for age, sex and location. The worker\nfinds the name and address information from the voter registration\ndata and the health information from the patient health\u00a0data."
+    },
+    "/patterns/Active-broadcast-of-presence": {
+        "summary": "",
+        "context": "Controllers provide an interface for acquiring information about the user. When one such user wants to share or broadcast their information, such as location or other presence data, that user may want to constrain the information. In this way, they may wish to prioritize data that is contextually relevant, or avoid a full stream of data which may be either noisy or intrusive. The controller wants the user to be able to provide this data at will, to maximize the applicability of their services. However, they do not want the user to regret providing too much data, nor to bother the user with constant\u00a0requests.",
+        "problem": "A service aims to acquire or broadcast a user's real-time data, particularly presence or location information, to a platform (e.g. social network). They wish to do so without revealing sensitive data (e.g. private locations, histories, or health information) nor overwhelming recipients with noisy data or users with constant\u00a0requests.",
+        "solution": "Allow the user to actively choose when to share information, whether tobroadcastit, and when not to. Assume that sharing settings do not apply holistically to all situations and seek clarification when in\u00a0doubt.",
+        "examples": "Active broadcast of presencecomplementsReasonable Level of Control,Masquerade, andPrivate link. WithReasonable Level of Control, it can consider a larger audience with granular sharing choices. WithMasquerade, it may make the audience more specific. Finally, withPrivate link, the specific audience may be determined by whom is provided with the link. As such, it may not be as\u00a0private."
+    },
+    "/patterns/Unusual-activities": {
+        "summary": "",
+        "context": "",
+        "problem": "Username and password authentication alone has varying reliability for proving decisions taken by a user, especially when concerning more sensitive actions. Controllers need to enhance their certainty that any consent provided is\u00a0legitimate.",
+        "solution": "Analyze the available information for which there is consent to establish an access norm. Test this against future access to identify unusual activities. When this occurs, alert the user and use multi-factor authentication while re-establishing certainty. The authenticated user should be able to review and take further\u00a0action.",
+        "examples": "This patterncomplementstheData Breach Notificationpattern. These patterns work in an overlapping context. While this pattern focuses on detecting and dealing with unauthorized access,Data Breach Notificationfocuses on informing and reacting when a data breach has occurred. The patterns can work together to handle unauthorized access to personal\u00a0data."
+    }
+}

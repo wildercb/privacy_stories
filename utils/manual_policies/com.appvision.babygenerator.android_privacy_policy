@@ -1,0 +1,4 @@
+
+ {#s The app does [#a use third-party services]  that may [#a collect] information used to [#p(identification) identify you]. /}  {#s We [#a collect] data and information (through third-party products) on your phone called [#dt Log Data]. This [#dt Log Data] may include information such as your device [#dt Internet Protocol (“IP”) address], [#dt device name], [#dt operating system version], the configuration of the app when utilizing my Service, the [#dt(app interactions:visit timestamps) time and date of your use of the Service,] /} and other statistics.  {#s the app may [#a use third-party] code and libraries that use [#dt “cookies”] to [#a collect] information and [#p(analytics) improve their services]. /}  {#s these [#a(share) third parties have access] to their [#dt Personal Information.] /} The reason is to perform the tasks assigned to them on our behalf. 
+
+

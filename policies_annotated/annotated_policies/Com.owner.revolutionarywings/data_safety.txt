@@ -1,0 +1,9 @@
+	
+	data shared with third parties The developer says this app doesn't share user data with other companies or organizations Learn more about how developers declare sharing Data collected Data this app may collect Personal info Name Email address User IDs Address and Phone number Data collected and for what purpose info Name App functionality Advertising or marketing Personalization Email address Advertising or marketing Personalization User IDs App functionality Analytics Advertising or marketing Personalization Account management Address Optional App functionality Personalization Phone number App functionality Advertising or marketing Personalization Account management Financial info User payment info Data collected and for what purpose info User payment info Optional App functionality Account management App activity App interactions Data collected and for what purpose info App interactions App functionality App info and performance Crash logs and Diagnostics Data collected and for what purpose info Crash logs App functionality Analytics Diagnostics App functionality Analytics Device or other IDs Device or other IDs Data collected and for what purpose info Device or other IDs App functionality Analytics Security practices Data is encrypted in transit Your data is transferred over a secure connection You can request that data be deleted The developer provides a way for you to request that your data be deleted info For more information about collected and shared data see the developer's privacy policy
+
+
+
+
+
+
+Pedometer 

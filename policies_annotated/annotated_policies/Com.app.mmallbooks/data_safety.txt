@@ -1,0 +1,12 @@
+
+Data shared Data that may be [#a shared] with other companies or organizations [#dt Location Approximate location and Precise location] Data [#a shared] and for what purpose info [#dt Approximate location Analytics] [#p Advertising or marketing] [#p Personalization] [#dt Precise location] [#p Analytics] [#p Advertising or marketing] [#p Personalization] No data collected The developer says this app doesn t collect user data Security practices Data isn t encrypted Your data isn t transferred over a secure connection Data can t be deleted The developer doesn t provide a way for you to request that your data be deleted
+
+
+
+
+
+
+
+
+Baby appearance predictor generator:
+

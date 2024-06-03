@@ -1,0 +1,7 @@
+Data shared Data that may be shared with other companies or organizations App activity App interactions Data shared and for what purpose info App interactions Analytics App info and performance Crash logs Data shared and for what purpose info Crash logs Analytics Device or other IDs Device or other IDs Data shared and for what purpose info Device or other IDs Analytics Data collected Data this app may collect Personal info Name and Email address Data collected and for what purpose info Name App functionality Account management Email address App functionality Account management Photos and videos Photos Data collected and for what purpose info Photos Optional App functionality App activity App interactions Data collected and for what purpose info App interactions Analytics App info and performance Crash logs Data collected and for what purpose info Crash logs Analytics Device or other IDs Device or other IDs Data collected and for what purpose info Device or other IDs Analytics Security practices Data is encrypted in transit Your data is transferred over a secure connection info For more information about collected and shared data see the developer's privacy policy
+
+
+
+
+DJI Fly
+

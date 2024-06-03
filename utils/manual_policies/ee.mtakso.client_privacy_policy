@@ -1,0 +1,40 @@
+
+1. {#s [#dt Personal data] we [#a process]
+We only [#a process] information that we need, so that we can provide you with the best service on our transportation marketplace. The data categories are as follows:
+[#dt Contact details] : things like [#dt name], [#dt phone number] and [#dt e-mail address]. For some of our services we might require a little more, like your [#dt home address].
+Profile information : things like your [#dt profile picture], saved addresses, language and communication preferences. For some of our services we might require a little more, like your [#dt driver license details].
+[#dt Geolocation] : such as where you need a ride from, or the location of nearby scooters to you, the time, the journey progression and the final destination of your trip.
+[#dt Payment information]
+like the [#dt(spending info) amount charged] and the [#dt payment card] used.
+[#dt(account information: messages) Communication and correspondence records]
+such as when you engage with our in-app chat, or speak with our customer service agents.
+Limited identification data of the device , like the [#dt IP address], on which the Bolt app has been installed
+Data about the usage of the transportation services : things like [#dt(transportation data) data about journey status], times and data about your conduct as assessed by drivers.
+Data on sensors for rental vehicles . It contains information such as [#dt(transportation data) vehicle speed, engine power, driving style information] (including sudden braking or skidding) and the total weight of objects and person(s) on the vehicle and changes in the weight. /}
+
+ For example, {#s we [#a collect] and [#a process] the [#dt personal data] submitted by you in the course of installing and using the Bolt app; refusing to share [#dt geolocation] data via the App means we cannot [#p(functionality:access) direct a driver to your location for pick-up, nor can we show you one of our own vehicles close to you for hire] \} . 
+2. Purpose of the processing
+{#s We [#a process] your [#dt personal data] so we can [#p(functionality:access) provide you with one or more of our transportation services]:
+We connect you with a driver, help find you a scooter or hire a vehicle : We [#a collect] and [#a process] [#dt personal data] for the purpose of [#p(functionality:order fulfillment:localization) connecting passengers with drivers so you can be picked up and dropped off]; or to [#p(functionality:localization) show you where our nearest available hire-vehicles are located], such as our cars or scooters. [#dt(account info:messages) Instant messages directly in the Bolt app] are [#a processed] in order to [#p(contact:support) provide service and customer support] (including resolving disputes between driver and rider), for [#p security purposes] as well as to improve our products and services, and for [#p analysis]. /}
+ This data is collected only when the Bolt app is activated. The {#s [#a collection] of [#dt geolocation data] [#a(collect:stop) stops after closing the Bolt app]. In some countries drivers cannot see passengers' phone numbers; the driver sees an altogether different number which temporarily diverts to the passenger's phone number meaning the driver and passenger can still communicate.
+We make sure your journey goes smoothly : We [#a use] [#dt geolocation] data to [#p(functionality:order fulfillment:localization) make sure you get to your destination] /} and resolve quality issues related to our services. We also need to know where you choose to drop off a hire-vehicle so we can bill correctly, recharge batteries and maintain our fleet.
+We make sure the app is optimal : {#s We [#a use] [#dt contact details] to [#p(contact) notify passengers and riders of updates to the Bolt app] /} so you can keep using our services. {#s We also [#a(collect) gather] limited [#dt(usage data)  data from the device] that you use to connect you with our internet, mobile and telephone services, and to help keep your account safe through [#p(identification) authentication and verification checks.] /}
+We make sure your ride is the quickest, cheapest and most convenient to you : {#s We [#a collect] [#dt(localization) data on the routes taken by our passengers and riders] to [#p(analytics:system analysis) analyse geographic coverage.] /} 
+{#s We [#a collect] your payment : We obtain [#dt payment details] to process passenger payment [#p(functionality: order fulfillment) on behalf of drivers for ride-hailing]. And we [#a process] /} payments for our own hire-vehicles, such as for our cars and scooters, too.
+We maintain and promote standards : {#s We [#a collect] [#dt(location) data about journey statuses], time and passenger ratings from driver feedback to encourage user safety, [#p(requirements:policy compliance) promote compliance with our terms and conditions], /} and make sure we’re providing a quality and enjoyable service to everyone. 
+We keep you informed : {#s Your [#dt name], [#dt phone number] and [#dt email address] will be [#dt used] to [#p communicate] /} with you for things like letting you know that your journey has been completed, sending you trip confirmation slips and receipts, and letting you know about important service updates such as when bad weather suspends the hiring of ours scooters.
+When using Bolt rental vehicles, {#s we [#a process] the [#dt(sensor data) data collected through the sensors] of the rental vehicles for [#p security purposes], /} to identify potentially dangerous driving behaviour and, if necessary, to send notifications to the data subject about the identified dangerous behaviour – i.e., 
+{#s We may [#a process] all [#dt personal data] about you for the establishment, [#p(security:site security) exercise or defence of legal claims in case we need to defend against or give proof of claims for damages, or other claims submitted to us for investigation.] /}
+
+Your personal data will be stored as long as you have an active passenger account. {#s If your [#p(account closed) account is closed], [#dt personal data] will be [#a deleted] /} (according to our retention schedule and rules), unless such data is still required to meet any legal obligation, or for accounting, dispute resolution or fraud prevention purposes.
+{#s [#dt Financial data] regarding transportation services provided to passengers will be [#a(delete:timed) stored for three years after the last journey]. /} Data required for other accounting purposes will be stored for seven years after the last journey.
+
+{#s [#dt(sensore data) Data on sensors] for rental vehicles [#a(delete:timed) is stored 6 months.] /}
+
+{#s The [#a retention] period for [#dt(device info: audio) audio recording data] generated through our Audio Trip Recording Feature is:
+24 hours, while stored locally on the device of the person who generates the recording. The [#a(delete:timed)  recordings are automatically deleted after 24 hours] /} 
+8. Direct marketing
+{#s We may send [#p(advertisement) direct marketing messages] to your [#dt e-mail address] and/or [#dt phone number] when you have [#a(consent:request) given us permission to do so], or under a soft opt-in basis. We may [#p(advertisement:personalized) personalise direct marketing messages] using [#dt(app interactions) information on how you use Bolt’s services],  /}such as how frequently you use the Bolt app, and your transportation preferences.
+
+
+

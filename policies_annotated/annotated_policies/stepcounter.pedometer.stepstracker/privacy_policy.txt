@@ -1,0 +1,118 @@
+
+[#ns Privacy Policy
+Privacy Policy
+Last updated: September 9, 2022
+This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
+Generally, we do not collect any personal identifiable information to our server, if you do not log in with your social media account to use the App. To be specific, we do not require the consumers to get registered when using the application, nor do we keep track of the consumers' visits of our application.]
+{#s We [#a use] Your [#dt Personal data] to [#p provide] and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy. /}
+{#s How we [#a Collect] and [#a Use] Your [#dt Personal Data]
+[#dt Personal Data]
+While using Our Service through logging in with your social media account , We may ask You to provide Us with certain [#dt personally identifiable information] that can be used to [#p contact] or [#p identify You], including:
+[#dt Email address]
+[#dt First name] and [#dt last name]
+[#dt Usage Data], such as step data
+In order to provide a better user experience, we require the following information from you:
+[#dt Age]
+[#dt Gender]
+[#dt Weight]
+[#dt Height] /}
+{#s [#dt Log Data]
+We want to inform you that whenever you use our Service, in case of an [#p error] in the app we [#a collect] data and information (through third party products, such as Google Analytics) on your phone called [#dt Log Data]. This Log Data may include information such as your device [#dt Internet Protocol (“IP”) address], [#dt device name], [#dt operating system] version, the configuration of the app when utilizing my Service, the [#dt(timestamps) time and date of your use of the Service], /} and other statistics.
+Types of Device Permission Needed
+{#s Health Kit - You will also have an option to permit us to import [#dt health data] into Google Fit from our app. Permitting us to access third party information can help you to maximize your App experience, and we will handle any such third-party information in accordance with this Privacy Policy.
+Physical activity Permission -
+when you use the pedometer feature in our app, we need permission to access your [#dt Physical Activity] to count your step data.
+[#dt Location] Permission - when you use the pedometer feature in our app, we need this [#p(functionality) permission to count your steps.] /}
+Storage Permission - when you use the pedometer feature in our app, we need permission to access your local media to store your step data. We will not modify or delete the content in your local media storage.
+Information from Third-Party Social Media Services
+{#s The Company allows You to [#p(accounts) create an account] and log in to use the Service through the following Third-party Social Media Services:
+Google
+If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may [#a collect] [#dt Personal data] that is already associated with Your Third-Party [#dt Social Media Service's account], such as [#dt Your name], Your [#dt email address], Your activities or Your [#dt contact list] associated with that account. /} 
+You may also have the option of sharing additional information with the Company through Your Third-Party Social Media Service's account. If You choose to provide such information and Personal Data, during registration or otherwise, You are giving the Company permission to use, share, and store it in a manner consistent with this Privacy Policy.
+Retention
+{#s The Company will [#a retain] [#dt Usage Data] for [#p internal analysis] purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the [#p security] or to improve the [#p functionality] of Our Service, or We are [#p(legal compliance) legally obligated] to retain this data for longer time periods. /} 
+Disclosure
+Law enforcement
+{#s Under certain circumstances, the Company may be required to [#a disclose] Your [#dt Personal Data] if [#p(legal compliance) required to do so by law] or in response to valid requests by public authorities (e.g. a court or a government agency).
+Other legal requirements
+The Company may [#a disclose] Your [#dt Personal Data] in the good faith belief that such action is necessary to [#p(legal compliance) Comply with a legal obligation] or Protect and defend the rights or property of the Company. /}
+Security
+We use administrative, technical, and physical security measures to help protect your personal Data. The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
+Third-Party Sites
+Our Service may contain links to other websites that are not operated by Us. We are not responsible for the privacy practices of Web sites operated by third parties.
+Our Service Providers have access to Your Personal Data only to perform their tasks on Our behalf and are obligated not to disclose or use it for any other purpose.
+- Analytics
+Google Analytics
+Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
+You may opt-out of certain Google Analytics features through your mobile device settings, such as your device advertising settings or by following the instructions provided by Google in their Privacy Policy:
+https://policies.google.com/privacy?hl=en
+For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page:
+https://policies.google.com/privacy?hl=en
+- Advertising
+{#s Google AdSense & DoubleClick Cookie
+[#a(share) Google, as a third party vendor], uses [#dt cookies] [#p(advertisement) to serve ads on our Service]. Google's use of the DoubleClick cookie enables it and its partners to serve ads to our users based on their visit to our Service or other websites on the Internet. /}
+You may opt out of the use of the DoubleClick Cookie for interest-based advertising by visiting the Google Ads Settings web page:
+http://www.google.com/ads/preferences/
+AdMob by Google
+AdMob by Google is provided by Google Inc.
+You can opt-out from the AdMob by Google service by following the instructions described by Google:
+https://support.google.com/ads/answer/2662922?hl=en
+For more information on how Google uses the collected information, please visit the "How Google uses data when you use our partners' sites or app" page:
+https://policies.google.com/technologies/partner-sites
+or visit the Privacy Policy of Google:
+https://policies.google.com/privacy
+FunnyAd by Google & Meta
+FunnyAd is provided by Meta Platforms, Inc. and Google Inc.
+You can opt-out from the FunnyAd by Google service by following the instructions described by Google:
+https://support.google.com/ads/answer/2662922?hl=en
+and by Meta service by following the instructions described by Meta:
+https://www.facebook.com/help/568137493302217/?helpref=uf_share
+For more information on how Google uses the collected information, please visit the Privacy Policy of Google:
+https://policies.google.com/privacy
+and the Privacy Policy of Meta:
+https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0
+- Payments
+Apple Store In-App Payments
+Their Privacy Policy can be viewed at
+https://www.apple.com/legal/privacy/en-ww/
+Google Play In-App Payments
+Their Privacy Policy can be viewed at
+https://www.google.com/policies/privacy/
+PayPal
+Their Privacy Policy can be viewed at
+https://www.paypal.com/webapps/mpp/ua/privacy-full
+WeChat
+Their Privacy Policy can be viewed at
+https://www.wechat.com/en/privacy_policy.html
+Alipay
+Their Privacy Policy can be viewed at
+https://render.alipay.com/p/f/agreementpages/alipayglobalprivacypolicy.html
+When You use Our Service to pay a product and/or service via bank transfer, We may ask You to provide information to facilitate this transaction and to verify Your identity.
+EU Residents
+You have the right under this Privacy Policy, and by law if You are within the EU, to:
+Request access to Your Personal Data . This enables You to email us and access, update or delete the information We have on You.
+Request correction of the Personal Data that We hold about You.
+Object to processing of Your Personal Data .
+Request the transfer of Your Personal Data . We will provide to You, or to a third-party You have chosen, Your Personal Data in a structured, commonly used, machine-readable format. Please note that this right only applies to automated information which You initially provided consent for Us to use or where We used the information to perform a contract with You.
+Withdraw Your consent . {#s You have the right to [#a(revoke:consent) withdraw Your consent] on [#a using] your [#dt Personal Data]. If You withdraw Your consent, We may not be able to provide You with access to certain specific functionalities of the Service. /}
+We do not sell personal information. If you wish to opt out of the use of your personal information for interest-based advertising purposes and these potential sales as defined under CCPA law, you may do so by following the instructions below.
+Please note that any opt out is specific to the browser You use. You may need to opt out on every browser that you use.
+Children's Privacy
+These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
+California Residents
+Our Service does not respond to Do Not Track signals.
+Under this Privacy Policy, and by law if You are a resident of California, You have the following rights:
+The right to notice . You must be properly notified which categories of Personal Data are being collected and the purposes for which the Personal Data is being used.
+The right to access / the right to request . The CCPA permits You to request and obtain from the Company information regarding the disclosure of Your Personal Data that has been collected in the past 12 months by the Company or its subsidiaries to a third-party for the third party's direct marketing purposes.
+The right to say no to the sale of Personal Data . You also have the right to ask the Company not to sell Your Personal Data to third parties. You can submit such a request by visiting our "Do Not Sell My Personal Information" section or web page.
+The right to know about Your Personal Data . You have the right to request and obtain from the Personal Data we collected about You.
+The right to delete Personal Data . {#s You also have the right to request the [#a deletion] of Your [#dt Personal Data] that have been collected in the past 12 months./} 
+The right not to be discriminated against . You have the right not to be discriminated against for exercising any of Your Consumer's rights, such as Providing a different level or quality of goods or services to You.
+To request removal of such data, and if you are a California resident, You can contact Us using the contact information provided below.
+Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances.
+Changes to this Privacy Policy
+We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+Contact Us
+If you want further information about our privacy policy and what it means, please feel free to email us at
+support@inston.ltd .
+

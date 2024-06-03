@@ -1,0 +1,54 @@
+5 Abstract
+Limit as much as possible the detail in which personal data
+is processed.
+While ‘minimise’ forces one to decide whether or not to process a particular piece of personal data, ‘abstract’ addresses the more subtle question
+of the level of detail in which to process personal data. The less detailed
+a personal data item is, the more we ‘zoom out’, the lower the privacy
+risk is.
+5.1 Tactics
+Processing personal data in less detail can be done both at the data subject
+level as well as the attribute level. The following three tactics apply.
+Summarise Summarise detailed attributes into more coarse-grained, general attributes. For example, use an age category instead of a birth
+date, or a city of residence instead of a full address, whenever possible.
+Group Aggregate information about a group of people instead of processing personal information for each person in the group separately. Compile group profiles with average information concerning
+the members of the group.
+Perturb Do not process the exact value of a personal data item. Instead
+use an approximation of that value, or adjust the value with some
+random noise. For example, instead of reporting the exact current
+location of a person, report his location within some random distance from the real location.
+Detailed information often becomes less relevant over time. Detailed logs
+are necessary to act swiftly in case of a hack or a disruption, but after
+some time only an aggregate overview of the total number of users of
+a service (perhaps with some information about which specific parts of
+the service were used) is still relevant. Be aware of this, and clean logs
+accordingly.
+10
+Note that even group profiles pose a privacy risk when individuals can
+easily be classified to belong to a particular group (such as people with a
+certain medical condition, or with a certain financial risk profile).
+5.2 Examples
+In many cases (like special discounts for seniors or juniors, or rules that
+require one to check whether someone is an adult) only age matters, and
+not the particular date of birth. In these cases it suffices to record the
+attribute “over eighteen” or “senior citizen”.
+Smart meters are an example of a system that abstracts both over space
+as well as over time. For the stability of the electrical grid detailed information on energy use of a single household is not relevant. It suffices to
+monitor, in real time, energy use of a whole street or block of houses. To
+determine the electricity bill it is not necessary to record the energy use
+in real time. Instead it is sufficient to send the accumulated energy use
+of say three months at a time to the energy supplier.
+Homomorphic encryption allows one to perform calculations on encrypted
+data without learning the real (unencrypted) data themselves. This allows
+one party to compute the sum of a set of encrypted measurements. Another party can then decrypt this sum. At the same time no one learns
+anything about the individual measurements.
+Location-based services need the location of the user in order to show relevant information (like a nearby restaurant, for example). But depending
+on the service this location does not have to be exact. Precise GPS coordinates are usually not necessary. Sometimes a coarse location rounded to
+a square kilometre suffices, and sending all relevant data for that larger
+area to the device. The more detailed information is filtered out locally.
+This type of clustering or cloaking implements the k-anonymity principle.
+This principle demands that the data is perturbed or cloaked in such a way
+that it could apply to at least k different people, that are also represented
+in the data set, or are using the service. In other words: apart from you,
+the data could belong to at least k − 1 other people. In location based
+services, k depends on the size of the area, and the average number of
+people there.

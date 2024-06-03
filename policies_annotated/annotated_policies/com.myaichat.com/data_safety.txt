@@ -1,0 +1,15 @@
+data shared with third parties The developer says this app doesn't share user data with other companies or organizations Learn more about how developers declare sharing Data collected Data this app may collect Location Approximate location Data collected and for what purpose info Approximate location Optional Analytics Fraud prevention security and compliance Personal info Name Email address and User IDs Data collected and for what purpose info Name App functionality Analytics Fraud prevention security and compliance Account management Email address App functionality Analytics Fraud prevention security and compliance Account management User IDs App functionality Analytics Fraud prevention security and compliance Account management App activity App interactions Data collected and for what purpose info App interactions Analytics Fraud prevention security and compliance App info and performance Diagnostics and Other app performance data Data collected and for what purpose info Diagnostics Optional Analytics Fraud prevention security and compliance Other app performance data Optional Analytics Fraud prevention security and compliance Device or other IDs Device or other IDs Data collected and for what purpose info Device or other IDs Optional Analytics Fraud prevention security and compliance Security practices Data is encrypted in transit Your data is transferred over a secure connection You can request that data be deleted The developer provides a way for you to request that your data be deleted info For more information about collected and shared data see the developer's privacy policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+First United Bank:

@@ -1,0 +1,47 @@
+6 Hide
+Protect personal data, or make it unlinkable or unobservable. Make sure it does not become public or known.
+This important strategy targets the confidentiality, unlinkability and unobservability of personal data. This is in contrast to the minimise strategy that is aimed at explicitly deciding whether or not to process certain
+personal data at all. The adequate protection of personal data is a legal
+requirement.
+6.1 Tactics
+The hide strategy therefore contains the following tactics.
+Restrict Restrict access to personal data. Ensure personal data is properly protected. Setup a strict access control policy. Only allow access to those who really need it (the ‘need to know’ principle). Make
+it difficult to accidentally share or leak personal data.
+Obfuscate Prevent understandability of personal data to those without
+the ability to decipher it. Encrypt data so that it becomes unintelligible without the key. Hash personal data, e.g. to create a pseudonym.
+Dissociate Break the link and remove the correlation between events,
+persons, and data. Remove directly identifying data.
+Mix Mix personal data to hide the source or their interrelationships. Anonymise data. Hide data in a ‘cloud’ of other data. Break the correlation between two events, for example by not responding immediately. Collect a few events first, and then process them in bulk.
+Hiding personal data can be achieved by protecting it (you know it is there
+but you cannot access it), making it unlinkable (you know the data, but
+not to which person it belongs), or making it unobservable (you are not
+even aware of the existence of the data). This latter aspect is only relevant
+to behavioural data (metadata), like location data, or information about
+who is communicating with whom.
+12
+Typically a combination of the above tactics is used to hide a particular
+data item.
+6.2 Examples
+Hashing and encryption are standard cryptographic techniques that one
+can use to protect personal data. Use them both for data transmitted over
+networks (‘data in transit’) as for data stored somewhere (‘data at rest’),
+and also pay proper attention to key management.
+Some communication services and cloud storage services use end-to-end
+encryption. In this case users agree, in a secure manner, on the keys to
+use for encryption in such a way that the service provider does not learn
+the key. This ensures that the service provider cannot decrypt and read
+the data it stores or forwards. The data is only available at the ‘endpoints’
+(i.e. the smartphone or laptop) of the users themselves.
+Attribute-based credentials (ABCs) allow a privacy-friendly form of identity management. Attributes are personal qualities, such as name, age,
+weight, income, etc. Using ABCs you can prove you possess such an attribute, for example that you are over eighteen, without revealing any
+other piece of information about yourself. Moreover, ABCs are unlinkable: reuse of a credential cannot be detected. If you prove a hundred
+times to the same service provider that you are over eighteen, then as
+far as the service provider is concerned, a hundred different people over
+eighteen used its service.
+Tor, the onion router, makes web browsing anonymous. Your browser
+no longer connects to the web server directly. Instead the connection is
+established through three different Tor nodes. These intermediate connections are all encrypted. This way the web server, your internet service
+provider, any intermediate nodes, even the Tor nodes you use, cannot tell
+which websites you are visiting.
+Note that in practice completely anonymous data sets do not exist: often one can use the retained data elements to deduce the identity of the
+person they pertain to. Therefore do not rely on anonymisation entirely.

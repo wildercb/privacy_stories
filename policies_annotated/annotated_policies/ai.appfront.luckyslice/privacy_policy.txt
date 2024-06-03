@@ -1,0 +1,221 @@
+
+[#ns Beengo Privacy Policy
+Beengo .Me Ltd.
+(" Beengo ",
+" we " or " us ") respects the privacy of the users ( "User "
+or
+"you ") of its App
+and/or Site at
+http://www.beengo.me/
+(as
+such terms are defined in detailed in our Terms of use at
+[ Terms of Use ]
+(the
+" TOU ")),
+and is committed to
+protect the personal information that its Users share with it. We believe that
+you have a right to know our practices regarding the information we may collect
+and use when you use our Site and/or our App.
+Capitalized terms which are not
+defined herein, shall have the meaning ascribed to them in the TOU, which this Privacy
+Policy is incorporated thereto by reference .
+1.
+Your
+Consent (PLEASE READ CAREFULLY!)
+BY
+INSTALLING THE APP, ENTERING TO, CONNECTING TO, ACCESSING OR USING THE SITE
+AND/OR APP YOU AGREE TO THE TERMS AND CONDITIONS SET FORTH IN THIS PRIVACY
+POLICY (THE " PRIVACY POLICY "), ] {#s INCLUDING TO THE [#a COLLECTION] AND
+[#a PROCESSING] OF YOUR [#dt PERSONAL INFORMATION] /} (AS DEFINED BELOW) .[#ns IF YOU DISAGREE TO
+ANY TERM PROVIDED HEREIN, YOU MAY NOT USE THE SITE AND/OR APP, DO NOT INSTALL
+THE APP AND PROMPTLY ERASE THE APP AND ANY PART THEREOF, FROM YOUR MOBILE PHONE
+AND DO NOT USE IT IN ANY MANNER WHATSOEVE.
+Which] information we
+may collect on our Users?
+{#s We may [#a collect] two types of data
+and information from our Users:
+a.
+The first type of information is non-identifiable
+and anonymous information ( " [#dt Non-personal
+Information] " ). /}
+[#ns We are not aware of the
+identity of the User from which we have collected the Non-personal Information.
+Non-Personal Information is any unconcealed information which is
+available to
+us
+while Users are using the Site and/or App.]
+{#s [#dt Non-personal Information] which is being [#a (collected) gathered] consists
+of technical information and behavioral information, and may contain, among
+other things, [#dt type of mobile device] and [#dt operating system], number of stamps,
+[#dt places users have stamped], etc. We also collect Non-personal Information which
+you provide us voluntarily in order to active the App, namely, your [#dt phone
+Number.] 
+b.
+The second type of information is individually identifiable
+information ( "Personal Information ").
+This information may identify
+an individual or may be of a private and/or sensitive nature . Personal
+Information may include, without limitation, [#dt User's name], [#dt email address], [#dt date
+of birthday] and certain [#dt personal eating preferences] /}(vegetarian, coffee
+preferences, etc.). In addition, certain features of the App allow you to
+purchase certain type of Beengo Cards using online payment methods (namely,
+ZOOZ).
+Please know that such online payment
+information is not stored in our databases (see section 8 below with respect to
+the payment method)
+Providing Beengo with Personal Information is completely
+optional and is not required in order to use the App and/or Site.
+2.
+How Do We Collect Information on Our
+Users?
+There are two main methods we
+use:
+a.
+{#s We [#a collect] [#dt Non-Personal Information] through your
+use of the Site and/or App . In other words, when you are using the Site
+and/or App we are aware of it and may gather, [#a collect] and record the
+information relating to such usage.
+We also [#a collect]
+[#dt Non-personal Information] which you provide us voluntarily in order to [#p(functionality) active
+the App], namely, your [#dt phone number] . /}
+b.
+{#s We [#a collect] [#dt Personal Information]
+which you provide us voluntarily
+when you insert such Personal Information into the
+"Me" segment of the App or when you purchase Beengo Cards using Your
+credit card. We [#a store] the [#dt Personal Information] either independently or through
+the help of our authorized third-party service providers as detailed below./}
+3.
+What are
+the Purposes of the Collection of Information?
+{#s [#dt Non-personal Information] is
+[#a collected] in order to:
+·
+[#p (analytics) Use it for
+statistical and research purposes] and for [#p customization and improvement of the App
+and/or Site.] /}
+·
+{#s [#p Activate the App]
+[#a using] [#dt User's phone number.] /}
+Personal Information is collected
+in order to:
+·
+Allow Users to receive,
+through the App, Email, Push, Sms and any other marketing channel (and
+on behalf of the Food Establishments which we
+cooperate
+with),{#s  [#p(marketing) special offers related to the Food
+Establishments] [#p(customization) in accordance with the User's personal eating preferences.]
+·
+[#p(marketing) Send to the User’s email address gifts], for example on the User’s birthday (for example, free coffee) and/or any promotional emails on behalf of the Food Establishments which we cooperate with.
+·
+Allow Users to
+[#p(payments:functionality) purchase certain Beengo Cards] (namely, charging cards) through online payment methods
+(namely, ZOOZ).
+·
+Send to User's
+email address confirmation regarding the purchase of Beengo Cards as well as a
+unique PIN code to be used vis-à-vis the purchased Beengo Cards.
+·
+Allow Users to
+provide
+[#p feedback with respect to Food Establishments they visit.] /}
+·
+Provide the Users applicable support .
+4.
+Sharing Information with Third Parties
+Beengo
+will not share any Personal Information it collects with
+any third party. Notwithstanding,
+{#s Beengo
+may [#a(share:third party) disclose Personal Information] in the following cases:
+(a) [#p(requirements:legal requirements) to satisfy any applicable law, regulation, legal process, subpoena or
+governmental request;] (b) [#p(requirements) to enforce this Privacy Policy and/or the TOU], including
+investigation of potential violations thereof; (c) to [#p(security) detect, prevent, or otherwise address fraud, security or technical issues;] (d) to [#p(requirements) respond to User's
+support requests]; (e) [#p(requirements:privacy policy compliance) respond to claims that any content available on the Site violates the rights of third-parties]; /} (f) to respond to [#nsc claims that contact information
+(e.g. name, e-mail address, etc.) of a third-party had been posted or
+transmitted without their consent or as a form of harassment; (g) to protect
+the rights, property, or personal safety of Beengo, its Users, or the general
+public; (h) when Beengo is undergoing any change in control, including by means
+of merger, acquisition or purchase of all or substantially all of its assets;
+(i)
+to collect, hold and/or manage your Personal Information through its
+authorized third party App providers, as reasonable for business purposes,
+which may be located in countries outside Israel, including but not limited to
+the United States of America;]
+(j)  to enable
+payment
+through certain online payment method
+[#nsc (see section 8
+below); or (k) pursuant to your explicit approval prior to the disclosure. For
+avoidance of doubt, Beengo may transfer and disclose Non-personal Information
+to third parties at its own discretion.
+5.
+Modification or Deleting Personal
+Information
+If for any reason you wish to modify or delete your
+Personal Information you can make it yourself in the "Me" section or you can send
+us an email to:
+team@beengo.me
+and we will make reasonable efforts to modify or delete any such Personal
+Information pursuant to any applicable privacy laws.
+6.
+Security
+We take a great care in
+implementing
+and maintaining the security of Beengo's Site and
+its
+User's Personal Information .
+Beengo
+employs industry
+standard procedures and policies to ensure the safety of its Users' Personal Information,
+and prevent unauthorized use of any such information.
+However, we do not guarantee that unauthorized access will
+never occur.
+7.
+Third
+Party Software/App]
+While using the Site and/or App we
+{#s may be [#a(share) using third party software and/or App], in order to [#a collect, store] and/or
+[#a process] the information detailed herein. Such software/App include without
+ limitation, Amazon cloud services which privacy policy can be found at:
+http://aws.amazon.com/privacy/
+and PayPal
+website or services (as detailed below).
+8.
+Payment]
+Beengo accepts payment through certain online
+payment method (namely, ZOOZ) which enables you to [#p send payments] securely
+online using a [#dt credit card] or [#dt bank account]. /} [#ns Please see the ZOOZ website ( www.zooz.com ) for more information. Please note
+that you shall be subject to the applicable ZOOZ Terms of Use (See
+https://app.zooz.com/portal/Terms_And_Conditions.pdf ).
+Beengo is not affiliated with ZOOZ, as each is an independent contractor, and
+neither is the agent or employee of the other, and neither is responsible in
+any way for the actions or performance (or lack thereof) of the other. Use of ZOOZ's
+service is on your sole discretion and sole liability.
+9.
+Changes to the Privacy Policy
+The terms of this
+Privacy Policy will govern the use of the Site and App and any information
+collected therein. Beengo reserves the right to change this policy at any time,
+so please re-visit this page frequently.
+We will provide notice of substantial
+changes of this policy on the homepage of the Site and/or we will send you an
+e-mail regarding such changes to the e-mail address that you provided in the
+registration form.
+Such substantial changes will take
+effect seven (7) days after such notice was provided on our website or sent by
+email. Otherwise, all other changes to this Privacy Policy are effective as of
+the stated "Last Revised" date and your continued use of the Site after the
+Last Revised date will constitute acceptance of, and agreement to be bound by,
+those changes.
+10.
+Have any Questions ?
+If you have
+any questions (or comments) concerning this Privacy Policy, you are most
+welcomed to send us an email at:
+team@beengo.me
+and we will make an effort to
+reply within a
+reasonable timeframe]
+

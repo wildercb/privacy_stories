@@ -1,0 +1,31 @@
+10 Demonstrate
+Demonstrate you are processing personal data in a privacyfriendly way.
+This strategy addresses the new requirement that organisations need to
+demonstrate compliance to privacy regulations. The demonstrate strategy is externally oriented, towards the data protection authorities (possibly through the internal data protection officer).
+10.1 Tactics
+The following tactics help organisations to demonstrate compliance.
+Record Document all (important) steps taken. Record decisions, and motivate them. Collect system logs (and respond to anomalies)1
+.
+Audit Audit the logs regularly, but audit also the organisational processes in general, and the way personal data is processed within
+the organisation.
+Report Report the results of such audits to the Data Protection Authority
+(DPA), or keep them for later reference. Consult, when possible, the
+DPA regularly.
+Document extensively yet efficiently the ways in which the organisation
+protects personal information. Do so in a surveyable and clarifying manner. Make sure that the documentation corresponds with reality. Get
+certified.
+10.2 Examples
+Performing a data protection impact assessment (DPIA), and especially
+recording the findings and properly documenting the decisions made
+based on it, is a good starting point. A DPIA has to be performed when
+personal will be processed. Sometimes a limited DPIA suffices. When
+this indicates that significant privacy risks may arise, a full-fledged DPIA
+1This tactic was called ‘log’ in earlier work.
+20
+must be performed. A DPIA must be repeated every once in a while as
+circumstances may have changed.
+Another approach is to get certified against an (internationally) recognised standard for privacy friendliness (like TRUSTe or EuroPriSe). Alternatively, a benchmark with other organisations that operate within the
+same (business)sector could provide additional support for the privacy
+maturity of your organisation.
+Using formal methods and structured development environments when
+developing new systems is an advantage.

@@ -1,0 +1,44 @@
+9 Enforce
+Commit to processing personal data in a privacy-friendly
+way, and adequately enforce this.
+Privacy should not only be guaranteed through technical means, but also
+through organisational means. It should be part of the organisational
+culture and be propagated by higher management. Otherwise nobody
+will feel responsible. A clear privacy policy will provide scope and guidance. The enforce strategy is internally oriented, towards the organisation itself. The strategy ensures that the externally communicated privacy
+statement (see the inform strategy) is also enforced internally through a
+privacy policy.
+9.1 Tactics
+Privacy-friendly processing is enforced by applying the following tactics.
+Create The organisation should commit to privacy. Take responsibility.
+Create a privacy policy. Assign resources to execute this policy.
+Determine for each process the goal and the (legal) ground: is there
+a legitimate interest, or is consent required? Be clear about the
+business model.
+Maintain Maintain the policy with all the necessary technical and organisational controls. Implement these controls. Assign responsibilities. Create an awareness campaign and train all personnel. Make
+sure third parties (processors) also comply with the policy.
+Uphold Circumstances change. Verify the privacy policy regularly, and
+adjust its implementation whenever necessary. Establish prior criteria, and evaluate your policy against them.
+The privacy policy should be aligned with the overall business plan and
+mission statement of the organisation. Make sure it is consistent with all
+other organisational policies.
+18
+9.2 Examples
+One approach is to implement a privacy management system similar to
+the plan-do-check-act cycle from the information security management
+standard (ISO 27001). This could be integrated with the data protection
+impact assessments that have to be performed anyway (and that are further discussed under the demonstrate strategy).
+Another technical approach is the use of so called ’sticky policies’ that
+are attached a data item to indicate the original purpose for which the
+data item was collected, or to specify the processing that is allowed to be
+performed on the data item. Processes in the organisation are set up in
+such a way that for each data item the sticky policy associated with it is
+automatically verified.
+One could also consider the use of techniques that register ’unusual’ activity and that block access to data items when necessary, for example
+when one person tries to access an unusual amount of data, or if significantly many people access a particular data item (for example the medical
+records of a VIP).
+Consideration should also be given to the system development processes
+within your organisation. Adhere to the privacy by design philosophy,
+and address privacy from the start. This little book helps you with that!
+;-) If you do not develop your own systems, privacy by design thinking, and
+in particular the use of the privacy design strategies, also helps setting
+the requirements for products or services to be procured.

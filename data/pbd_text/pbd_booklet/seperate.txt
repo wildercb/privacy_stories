@@ -1,0 +1,47 @@
+4 Separate
+Separate the processing of personal data as much as
+possible.
+Another important strategy is to (logically or physically) separate the processing of personal data. This makes it harder to combine or correlate
+data. By processing personal data from different contexts, the risk that
+data from one context becomes known in another context is reduced. Especially when the separation is physical. Hence separation implements
+contextual integrity.
+4.1 Tactics
+The following two tactics help implement the separate strategy.
+Isolate Collect and process personal data in different databases or applications. These databases or applications are either logically separated, or actually run on different (yet still centrally located or
+controlled) hardware. Ensure that the logical separation is tightly
+enforced.
+Distribute Distribute the collection and processing of personal data over
+different physical locations using databases and systems that are
+not under the control of a single entity. Use the equipment (PC,
+laptop, smartphone) of the data subject himself as much as possible, and use central components as little as possible. Use decentralised or even distributed system architectures instead of centralised ones.
+4.2 Examples
+A social network allows people to share status updates and pictures with
+friends and acquaintances. Current social networks (such as Twitter or
+Facebook) are centralised architectures: the platform sees everything that
+its users share with each other. That also determines the (tremendous)
+value of these social networks, and also underlies the business models
+8
+of these networks. A privacy-friendly version of such a social network
+would allow its users to store all updates and pictures locally on their
+own devices (e.g their smartphones) and would share that information
+directly with their friends and acquaintances in a peer-to-peer fashion.
+In this case no data is stored or processed by a centralised component at
+all.
+In general peer-to-peer networks or distributed algorithms could be used
+instead of centralised approaches, to improve privacy protection.
+One small example to further illustrate this idea is the historical use of a passbook to record bank deposits or withdrawals,
+back in the days when people did not have bank accounts and
+wages were paid in cash. The passbook served as a local copy
+of all transactions, owned and controlled by the holder. Strictly
+speaking only the passbook itself could have served as the authentic record, alleviating the bank of the need to maintain
+any information about the ‘account’ and its holder. (In practice banks would have kept a record too to prevent fraud.)
+Apple’s iOS 10 allows users to group photos based on the people in them.
+This uses facial recognition software. In iOS 10 this software runs locally
+in the user’s phone. The photos are therefore not sent to a central server
+for analysis.
+An extremely privacy-friendly way of processing data in a distributed
+fashion is the use of secure multiparty computation. With this technology
+an arbitrary function over private inputs distributed over many different
+devices can be computed without these inputs ever leaving the devices.
+This technique has been used in Denmark to perform secure and privacyfriendly auctions. Every bid was secret, except the largest: that one could
+be determined.

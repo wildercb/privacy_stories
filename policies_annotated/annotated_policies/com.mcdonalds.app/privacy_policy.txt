@@ -1,0 +1,47 @@
+
+[#ns Privacy Statement Overview | McDonald’s
+Please take a moment to
+review the new McDonald's Terms and Conditions , effective 10/20/2023, which include a binding arbitration provision and a waiver of your right to a trial in court. By continuing to use our website after that date, you indicate your agreement with and intention to be bound by the new Terms and Conditions.
+
+McDonald’s Global Customer Privacy Statement Overview
+Read Full Privacy Statement]
+{#s Information We [#a Collect]
+The McDonald’s entity in your jurisdiction (“We”) [#a collects] information that you provide to us; information that is created automatically when you use our technology solutions; information that we [#a(collect:external) receive from third parties] including other McDonald’s entities; and information that is publicly available—for example, through your social media interactions.
+Read More
+How We [#a Use] Information
+We [#a use] your [#dt personal information] to [#p(customization) personalize] and [#p(functionality) improve your customer experience] and to provide our products and services to you in new innovative ways. [#p(Advertisement) We will also use your information to inform you about our and our partner’s products and services.] /}
+Read More
+How We [#a Share] Information
+We may share your information within the McDonald’s Family, which includes McDonald’s Corporation, its subsidiaries and McDonald’s franchisees, and our vendors.
+Read More
+[#ns Children’s Privacy
+We are especially committed to protecting the privacy of children and urge parents to regularly supervise their children’s online activities.
+Read More
+Your Choices and Rights
+Where appropriate, we provide you with choices as to how we use your personal information. Most of our online services contain a profile section that allows you to change your privacy preferences, including for marketing communications. You may also have certain rights under applicable data protection laws.
+Read More
+Use of Our Online Services and Other Technology]
+{#s We [#a use] [#dt cookies], web beacons and similar technologies to [#p(customization) personalize] and [#p(functionality) improve your customer experience.] /}
+[#ns Read More
+Links to Other Websites and Social Media
+Our online services may offer links to websites run by third parties. We may also integrate the services of third party social media providers in our online services. Any information you provide to such third parties is subject to their privacy policies and outside of our control.
+Read More
+Information Security
+We are committed to taking appropriate measures designed to keep your personal information secure. Please keep in mind that no information technology (IT) system and no transmission over the public internet can be guaranteed to be 100% secure.
+Read More]
+Retention
+{#s We will [#a retain] your information only for as long as necessary for the [#p(functionality) identified use]. Generally, we will [#a retain] your information only for as long as necessary to [#p(customization) manage your relationship] with us and to [#p(requirements:legal compliance) with legal obligations.] /}
+[#ns Read More
+International Data Transfers
+The McDonald’s Family is global in nature. We may therefore transfer your information to other countries but will only do so in compliance with applicable requirements and only where an adequate level of data protection is ensured.
+Read More
+Changes to Our Privacy Statement
+We may change this privacy statement from time to time and will inform you by posting the revised version here and/or contacting you directly.
+Read More
+How to Contact Us
+If you have any questions or complaints, please contact our Global Data Protection Office or us directly using the contact details set out in the country-specific addendum.
+Read More
+Read Full Privacy Statement
+You are leaving McDonald’s to visit a site not hosted by McDonald’s. Please review the third-party’s privacy policy, accessibility policy, and terms. McDonald’s is not responsible for the content provided by third-party sites.
+Read More]
+

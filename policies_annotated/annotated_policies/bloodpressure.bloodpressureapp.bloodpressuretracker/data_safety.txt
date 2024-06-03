@@ -1,0 +1,16 @@
+
+Data shared Data that may be [#a shared] with other companies or organizations Personal info [#dt Email address] and [#dt User IDs] Data shared and for what purpose info [#dt Email address] [#p App functionality] [#p Account management] [#dt User IDs] [#dt App functionality] [#p Account management] Health and fitness Health info Data [#a shared] and for what purpose info [#dt Health info] [#p App functionality] [#p Account management] [#dt App activity] [#p App interactions] Data shared and for what purpose info [#dt App interactions] [#p Analytics] [#p Fraud prevention] [#p security] and [#p compliance] [#p Personalization] App info and performance Crash logs and Diagnostics Data shared and for what purpose info Crash logs Analytics Fraud prevention security and compliance Diagnostics Analytics Fraud prevention security and compliance Device or other IDs Device or other IDs Data [#a shared] and for what purpose info [#dt Device or other IDs] [#p Advertising or marketing] Personalization Data [#a collected] Data this app may [#a collect] Personal info [#dt Email address] Data [#a collected] and for what purpose info [#dt Email address] [#p Optional App functionality] [#p Account management] [#dt App activity] [#dt App interactions] Data [#a collected] and for what purpose info [#dt App interactions] [#p Analytics] [#p Fraud prevention security and compliance] [#p Personalization] App info and performance Crash logs and Diagnostics Data [#a collected] and for what purpose info Crash logs Analytics Fraud prevention security and compliance Diagnostics Analytics Fraud prevention security and compliance Device or other IDs Device or other IDs Data collected and for what purpose info [#dt Device or other IDs] [#p Advertising or marketing] [#p Personalization] Security practices Data is encrypted in transit Your data is transferred over a secure connection Data can t be deleted The developer doesn t provide a way for you to request that your data be deleted info For more information about collected and shared data see the developer's privacy policy
+
+
+
+
+
+
+
+
+
+
+
+
+Blue books and knowledge 
+
