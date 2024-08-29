@@ -5,15 +5,14 @@
 
 ### Overview
 
-**Privacy Stories** is a tool for creating, annotating, and visualizing connections within privacy policies. Our project empowers users to extract and analyze key components of privacy policies, providing insights into data usage, purposes, and actions.
-
+**Privacy Stories** This repository puts together the work I did for privacy stories throughout 2023-2024 , there are several items throughout the repo we will not go over here including apsjs (to get info from the play store) and the utils (extra, other functions to get the data required for this project) 
 ---
 
 ## 🚀 Getting Started
 
 ### 1. Create Graphs Based on Annotated Privacy Policies
 
-Generate insightful graphs to visualize the connections between actions, data types, and purposes in your annotated privacy stories.
+Generate graphs to visualize the connections between actions, data types, and purposes in the annotated privacy stories & their apps data safety sections.
 
 - **Notebook**: [`graphs_stories/graphs.ipynb`](graphs_stories/graphs.ipynb)
 
@@ -27,7 +26,7 @@ Upload a privacy policy file to the `input` folder, then use the following noteb
 
 ### 3. Annotate and Answer Questions About Privacy Stories
 
-Easily annotate and answer questions about your privacy stories using our interactive annotation tool.
+Annotate / answer questions about the generated privacy stories using the annotation tool.
 
 - **Notebook**: [`annotator/processor.ipynb`](annotator/processor.ipynb) - Load an Excel file for annotation and customize your questions.
 - **Run the Annotation App**:
