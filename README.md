@@ -5,7 +5,7 @@
 
 ### Overview
 
-**Privacy Stories** This repository puts together the work I did for privacy stories throughout 2023-2024 , there are several items throughout the repo we will not go over here including apsjs (to get info from the play store) and the utils (extra, other functions to get the data required for this project) 
+**Privacy Stories** This repository puts together the work I did for privacy stories throughout 2023-2024 , there are several items throughout the repo we will not go over here including apsjs (to get info from the play store) and most of the utils (extra, other functions to get the data required for this project) 
 ---
 
 ## 🔮 Getting Started
@@ -17,6 +17,9 @@ Generate graphs to visualize the connections between actions, data types, and pu
 - **Notebook**: [`graphs_stories/graphs.ipynb`](graphs_stories/graphs.ipynb)
 
 ### 2. Generate Privacy Stories
+
+To use openai, first create a secrets.py file in the utils directory. Add OPENAI_API_KEY = {your open api key}, 
+also provides functionality to run local models with Ollama. 
 
 Upload a privacy policy file to the `input` folder, then use the following notebook to generate privacy stories:
 
