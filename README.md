@@ -1,5 +1,4 @@
-# 📜 Privacy Stories v0.2.7
-
+# 📜 Privacy Stories
 [![Version](https://img.shields.io/badge/version-0.2.7-blue.svg)](https://github.com/your_repo)
 [![Python](https://img.shields.io/badge/python-green.svg)](https://www.python.org/)
 
